@@ -1,0 +1,398 @@
+{
+  "1": {
+    "start_event": "End of startup or end of OB1",
+    "default_priority_class": [
+      1
+    ],
+    "explanation": "Free_cycle"
+  },
+  "10": {
+    "start_event": "Time-of-day interrupt 0",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "11": {
+    "start_event": "Time-of-day interrupt 1",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "12": {
+    "start_event": "Time-of-day interrupt 2",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "13": {
+    "start_event": "Time-of-day interrupt 3",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "14": {
+    "start_event": "Time-of-day interrupt 4",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "15": {
+    "start_event": "Time-of-day interrupt 5",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "16": {
+    "start_event": "Time-of-day interrupt 6",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "17": {
+    "start_event": "Time-of-day interrupt 7",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "Non default time specified"
+  },
+  "20": {
+    "start_event": "Time-delay interrupt 0",
+    "default_priority_class": [
+      3
+    ],
+    "explanation": "Non default time specified"
+  },
+  "21": {
+    "start_event": "Time-delay interrupt 1",
+    "default_priority_class": [
+      4
+    ],
+    "explanation": "Non default time specified"
+  },
+  "22": {
+    "start_event": "Time-delay interrupt 2",
+    "default_priority_class": [
+      5
+    ],
+    "explanation": "Non default time specified"
+  },
+  "23": {
+    "start_event": "Time-delay interrupt 3",
+    "default_priority_class": [
+      6
+    ],
+    "explanation": "Non default time specified"
+  },
+  "30": {
+    "start_event": "Cyclic interrupt 0 (default interval: 5 s)",
+    "default_priority_class": [
+      7
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "31": {
+    "start_event": "Cyclic interrupt 1 (default interval: 2 s)",
+    "default_priority_class": [
+      8
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "32": {
+    "start_event": "Cyclic interrupt 2 (default interval: 1 s)",
+    "default_priority_class": [
+      9
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "33": {
+    "start_event": "Cyclic interrupt 3 (default interval: 500 ms)",
+    "default_priority_class": [
+      10
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "34": {
+    "start_event": "Cyclic interrupt 4 (default interval: 200 ms)",
+    "default_priority_class": [
+      11
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "35": {
+    "start_event": "Cyclic interrupt 5 (default interval: 100 ms)",
+    "default_priority_class": [
+      12
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "36": {
+    "start_event": "Cyclic interrupt 6 (default interval: 50 ms)",
+    "default_priority_class": [
+      13
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "37": {
+    "start_event": "Cyclic interrupt 7 (default interval: 20 ms)",
+    "default_priority_class": [
+      14
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "38": {
+    "start_event": "Cyclic interrupt 8 (default interval: 510 ms)",
+    "default_priority_class": [
+      15
+    ],
+    "explanation": "Cyclic interrupts"
+  },
+  "40": {
+    "start_event": "Hardware interrupt 0 (default interrupt)",
+    "default_priority_class": [
+      16
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "41": {
+    "start_event": "Hardware interrupt 1 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      17
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "42": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      18
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "43": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      19
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "44": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      20
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "45": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      21
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "46": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      22
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "47": {
+    "start_event": "Hardware interrupt 0 (only if programmed specifically for the individual modules)",
+    "default_priority_class": [
+      23
+    ],
+    "explanation": "Hardware interrupts"
+  },
+  "55": {
+    "start_event": "Status interrupt",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "DPV1 interrupts"
+  },
+  "56": {
+    "start_event": "Update interrupt",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "DPV1 interrupts"
+  },
+  "57": {
+    "start_event": "Manufacturer specific interrupt",
+    "default_priority_class": [
+      2
+    ],
+    "explanation": "DPV1 interrupts"
+  },
+  "60": {
+    "start_event": "SFC35 'MP_ALM' call",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Multicomputing interrupt"
+  },
+  "61": {
+    "start_event": "Synchronous Cycle Interrupt 1",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Synchronous Cycle interrupt"
+  },
+  "62": {
+    "start_event": "Synchronous Cycle Interrupt 2",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Synchronous Cycle interrupt"
+  },
+  "63": {
+    "start_event": "Synchronous Cycle Interrupt 3",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Synchronous Cycle interrupt"
+  },
+  "64": {
+    "start_event": "Synchronous Cycle Interrupt 4",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Synchronous Cycle interrupt"
+  },
+  "65": {
+    "start_event": "Technology synchronization interrupt",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Technology synchronization interrupt"
+  },
+  "70": {
+    "start_event": "I/O redundancy error (only in H CPUs)",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Redundancy error interrupt"
+  },
+  "72": {
+    "start_event": "CPU redundancy error (only in H CPUs)",
+    "default_priority_class": [
+      28
+    ],
+    "explanation": "Redundancy error interrupt"
+  },
+  "73": {
+    "start_event": "Communication redundancy error OB (only in H CPUs)",
+    "default_priority_class": [
+      25
+    ],
+    "explanation": "Redundancy error interrupt"
+  },
+  "80": {
+    "start_event": "Time error",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "81": {
+    "start_event": "Power supply fault",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "82": {
+    "start_event": "Diagnostic interrupt",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "83": {
+    "start_event": "Insert/remove-module interrupt",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "84": {
+    "start_event": "CPU hardware fault",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "85": {
+    "start_event": "Program error",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "86": {
+    "start_event": "Failure of an expansion rack, DP master system or station for distributed I/Os",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "87": {
+    "start_event": "Communication error",
+    "default_priority_class": [
+      26,
+      28
+    ],
+    "explanation": "Asynchronous error interrupts"
+  },
+  "90": {
+    "start_event": "Complete restart or delete a block being executed in OB90 or load an OB90 on the CPU or terminate OB90",
+    "default_priority_class": [
+      29
+    ],
+    "explanation": "Background cycle"
+  },
+  "100": {
+    "start_event": "Warm restart",
+    "default_priority_class": [
+      27
+    ],
+    "explanation": "Startup"
+  },
+  "101": {
+    "start_event": "Hot restart",
+    "default_priority_class": [
+      27
+    ],
+    "explanation": "Startup"
+  },
+  "102": {
+    "start_event": "Cold restart",
+    "default_priority_class": [
+      27
+    ],
+    "explanation": "Startup"
+  },
+  "121": {
+    "start_event": "Programming error",
+    "default_priority_class": [],
+    "explanation": "synchronous error interrupts"
+  },
+  "122": {
+    "start_event": "I/O access error",
+    "default_priority_class": [],
+    "explanation": "synchronous error interrupts"
+  }
+}

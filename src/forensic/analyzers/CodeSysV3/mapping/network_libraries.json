@@ -1,0 +1,5186 @@
+{
+	"CertificateHandling": {
+		"library_full_name": "certificatehandling, 1.1.4.0 (schneider electric)",
+		"version": "1.1.4.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FB_SearchCertAsync": {
+				"type_guid": "pou"
+			},
+			"Job": {
+				"type_guid": "method_with_return"
+			},
+			"xDone": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"FB_InstallCertAsync": {
+				"type_guid": "pou"
+			},
+			"FB_InitCertStoreAsync": {
+				"type_guid": "pou"
+			},
+			"FB_GetPrivateKeyAsync": {
+				"type_guid": "pou"
+			},
+			"FB_GetFirstCertAsync": {
+				"type_guid": "pou"
+			},
+			"FB_DeleteCertAsync": {
+				"type_guid": "pou"
+			},
+			"FB_CreateSSCertificateAsync": {
+				"type_guid": "pou"
+			},
+			"FB_CreateCsrAsync": {
+				"type_guid": "pou"
+			},
+			"FC_SetCertificateProperties": {
+				"type_guid": "pou"
+			},
+			"GetHardwareRev": {
+				"type_guid": "pou"
+			},
+			"FB_RandomGenerator": {
+				"type_guid": "pou"
+			},
+			"CalcRandom": {
+				"type_guid": "method_with_return"
+			},
+			"GetLreal": {
+				"type_guid": "method_with_return"
+			},
+			"GetDint": {
+				"type_guid": "method_with_return"
+			},
+			"FC_SearchCertificate": {
+				"type_guid": "pou"
+			},
+			"ST_CertificateHandling": {
+				"type_guid": "dut"
+			},
+			"FB_CopyToAsync": {
+				"type_guid": "pou"
+			},
+			"FC_InstallCert": {
+				"type_guid": "pou"
+			},
+			"FC_InitCertStore": {
+				"type_guid": "pou"
+			},
+			"FC_GetOrCreateSSCertificate": {
+				"type_guid": "pou"
+			},
+			"FC_CreateCSR": {
+				"type_guid": "pou"
+			},
+			"FC_ConvertTrustLevel": {
+				"type_guid": "pou"
+			},
+			"FC_ResetTlsContext": {
+				"type_guid": "pou"
+			},
+			"ST_CertificateAttributes": {
+				"type_guid": "dut"
+			},
+			"ST_AlternativeNames": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"FB_InstallCertificateFromString": {
+				"type_guid": "pou"
+			},
+			"InputHandling": {
+				"type_guid": "method_with_return"
+			},
+			"ResetOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"SetError": {
+				"type_guid": "method_with_return"
+			},
+			"FB_CreateSelfSignedCertificate": {
+				"type_guid": "pou"
+			},
+			"FB_CreateCSR": {
+				"type_guid": "pou"
+			},
+			"CleanFile": {
+				"type_guid": "method_with_return"
+			},
+			"InitFile": {
+				"type_guid": "method_with_return"
+			},
+			"WriteFile": {
+				"type_guid": "method_with_return"
+			},
+			"FB_CertificateHandling": {
+				"type_guid": "pou"
+			},
+			"State": {
+				"type_guid": "property"
+			},
+			"StateProvince": {
+				"type_guid": "property"
+			},
+			"Subject": {
+				"type_guid": "method_with_return"
+			},
+			"SelectCertificateByHandle": {
+				"type_guid": "method_with_return"
+			},
+			"IsPrivateKeyAvailable": {
+				"type_guid": "method_with_return"
+			},
+			"DnsName": {
+				"type_guid": "property"
+			},
+			"EMail": {
+				"type_guid": "property"
+			},
+			"EndDate": {
+				"type_guid": "property"
+			},
+			"Handle": {
+				"type_guid": "property"
+			},
+			"IpAddress": {
+				"type_guid": "property"
+			},
+			"IsCertificateSelected": {
+				"type_guid": "property"
+			},
+			"CommonName": {
+				"type_guid": "property"
+			},
+			"IsServerAuthentication": {
+				"type_guid": "property"
+			},
+			"Locality": {
+				"type_guid": "property"
+			},
+			"Organization": {
+				"type_guid": "property"
+			},
+			"OrganizationUnit": {
+				"type_guid": "property"
+			},
+			"RegisterCallback": {
+				"type_guid": "method_with_return"
+			},
+			"ReleaseCertificate": {
+				"type_guid": "method_with_return"
+			},
+			"ResetResult": {
+				"type_guid": "method_with_return"
+			},
+			"Result": {
+				"type_guid": "property"
+			},
+			"SelectFirstCertificate": {
+				"type_guid": "method_with_return"
+			},
+			"SelectNextCertificate": {
+				"type_guid": "method_with_return"
+			},
+			"StartDate": {
+				"type_guid": "property"
+			},
+			"SelectCertificateByCommonName": {
+				"type_guid": "method_with_return"
+			},
+			"IsSelfSigned": {
+				"type_guid": "property"
+			},
+			"GetContent": {
+				"type_guid": "method_with_return"
+			},
+			"Country": {
+				"type_guid": "property"
+			},
+			"Delete": {
+				"type_guid": "method_with_return"
+			},
+			"EventCallback": {
+				"type_guid": "method_with_return"
+			},
+			"Copy": {
+				"type_guid": "method_with_return"
+			},
+			"ExtKeyUsage": {
+				"type_guid": "method_with_return"
+			},
+			"GetThumbprint": {
+				"type_guid": "method_with_return"
+			},
+			"IsClientAuthentication": {
+				"type_guid": "property"
+			},
+			"IsDateValid": {
+				"type_guid": "property"
+			},
+			"Uri": {
+				"type_guid": "property"
+			},
+			"ET_TrustLevel": {
+				"type_guid": "dut"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_HashAlgorithm": {
+				"type_guid": "dut"
+			},
+			"ET_ExtendedKeyUsage": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"DigitalTwinCommunication": {
+		"library_full_name": "digitaltwincommunication, 1.0.0.0 (schneider electric)",
+		"version": "1.0.0.0",
+		"nodes": {
+			"ST_DataRobotPSeries": {
+				"type_guid": "dut"
+			},
+			"ST_DataRobotTSeries": {
+				"type_guid": "dut"
+			},
+			"ST_OptionalModule1Ax": {
+				"type_guid": "dut"
+			},
+			"ST_CarrierConfig": {
+				"type_guid": "dut"
+			},
+			"ST_ProductConfig": {
+				"type_guid": "dut"
+			},
+			"ST_StationConfig": {
+				"type_guid": "dut"
+			},
+			"ST_ToolConfig": {
+				"type_guid": "dut"
+			},
+			"ST_TrackConfig": {
+				"type_guid": "dut"
+			},
+			"ST_Multicarriers": {
+				"type_guid": "dut"
+			},
+			"ST_ConfigDataGeneric": {
+				"type_guid": "dut"
+			},
+			"ST_ConfigDataOptionalModule": {
+				"type_guid": "dut"
+			},
+			"ST_ConfigDataRobotCartesian": {
+				"type_guid": "dut"
+			},
+			"ST_ConfigDataRobotPSeries": {
+				"type_guid": "dut"
+			},
+			"ST_ConfigDataRobotTSeries": {
+				"type_guid": "dut"
+			},
+			"ST_DataRobotCartesian": {
+				"type_guid": "dut"
+			},
+			"ST_OptionalModule2Ax": {
+				"type_guid": "dut"
+			},
+			"ST_DataToolDefault": {
+				"type_guid": "dut"
+			},
+			"ST_DataToolType1Ax": {
+				"type_guid": "dut"
+			},
+			"ST_DataToolType2Ax": {
+				"type_guid": "dut"
+			},
+			"ST_ValueRange": {
+				"type_guid": "dut"
+			},
+			"ET_EmulationColors": {
+				"type_guid": "dut"
+			},
+			"GVL_OpcUaMulticarrier": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"EMailHandling": {
+		"library_full_name": "emailhandling, 2.1.0.0 (schneider electric)",
+		"version": "2.1.0.0",
+		"nodes": {
+			"ST_TlsSettings": {
+				"type_guid": "dut"
+			},
+			"ST_EMail": {
+				"type_guid": "dut"
+			},
+			"ST_CredentialsSendEMail": {
+				"type_guid": "dut"
+			},
+			"ST_CredentialsReceiveEMail": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_QuotedPrintableDecoder": {
+				"type_guid": "pou"
+			},
+			"FC_EtStateToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_Base64ToText": {
+				"type_guid": "pou"
+			},
+			"FB_TcpBase": {
+				"type_guid": "pou"
+			},
+			"ConnectToServer": {
+				"type_guid": "method_with_return"
+			},
+			"SendToServer": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SmtpSendEMail": {
+				"type_guid": "pou"
+			},
+			"AuthenticationLogin": {
+				"type_guid": "method_with_return"
+			},
+			"AuthenticationPlain": {
+				"type_guid": "method_with_return"
+			},
+			"CheckSmtpCode": {
+				"type_guid": "method_with_return"
+			},
+			"CreateAttachmentHeader": {
+				"type_guid": "method_with_return"
+			},
+			"CreateDataHeader": {
+				"type_guid": "method_with_return"
+			},
+			"CreateDate": {
+				"type_guid": "method_with_return"
+			},
+			"EncodeToBase64": {
+				"type_guid": "method_with_return"
+			},
+			"EvaluateServerSMTPMessage": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractFilename": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractRecipientEMail": {
+				"type_guid": "method_with_return"
+			},
+			"GetDayOfWeek": {
+				"type_guid": "method_with_return"
+			},
+			"GetMonth": {
+				"type_guid": "method_with_return"
+			},
+			"InputParameterCheck": {
+				"type_guid": "method_with_return"
+			},
+			"MessageIteration": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveFromServer": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SendEMail": {
+				"type_guid": "pou"
+			},
+			"FB_Pop3EMailClient": {
+				"type_guid": "pou"
+			},
+			"Analyze7Bit": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeBase64": {
+				"type_guid": "method_with_return"
+			},
+			"ResetInbox": {
+				"type_guid": "method_with_return"
+			},
+			"ResetEMailStatus": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveMultiLineFromServer": {
+				"type_guid": "method_with_return"
+			},
+			"OnlineChangeUpdateInbox": {
+				"type_guid": "method_with_return"
+			},
+			"InitFilePath": {
+				"type_guid": "method_with_return"
+			},
+			"FindString": {
+				"type_guid": "method_with_return"
+			},
+			"FindFilename": {
+				"type_guid": "method_with_return"
+			},
+			"FindContType": {
+				"type_guid": "method_with_return"
+			},
+			"FindContTransfEnc": {
+				"type_guid": "method_with_return"
+			},
+			"FindBoundary": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractUidl": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractInboxCounter": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractEMailFromWhiteList": {
+				"type_guid": "method_with_return"
+			},
+			"CheckWhiteList": {
+				"type_guid": "method_with_return"
+			},
+			"CheckPop3Answer": {
+				"type_guid": "method_with_return"
+			},
+			"CheckFileExtension": {
+				"type_guid": "method_with_return"
+			},
+			"CheckEMailFormat": {
+				"type_guid": "method_with_return"
+			},
+			"BytesToInt": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeUidlList": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeQuotatedPrintable": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeHeaderPart": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeHeader": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeBody": {
+				"type_guid": "method_with_return"
+			},
+			"ResetVariables": {
+				"type_guid": "method_with_return"
+			},
+			"FB_OnlineChangeManager": {
+				"type_guid": "pou"
+			},
+			"CallbackIncreaseOnlineChangeCounter": {
+				"type_guid": "method_with_return"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_SmtpCodes": {
+				"type_guid": "dut"
+			},
+			"ET_ResultToolbox": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_Protocol": {
+				"type_guid": "dut"
+			},
+			"ET_Priority": {
+				"type_guid": "dut"
+			},
+			"ET_EMailStatus": {
+				"type_guid": "dut"
+			},
+			"ET_ContentType": {
+				"type_guid": "dut"
+			},
+			"ET_ContentTransferEncoding": {
+				"type_guid": "dut"
+			},
+			"ET_Command": {
+				"type_guid": "dut"
+			},
+			"ET_AuthenticationMode": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"EtherNetIP Explicit Messaging": {
+		"library_full_name": "ethernetip explicit messaging, 1.1.12.0 (schneider electric)",
+		"version": "1.1.12.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"ConnectionCode": {
+				"type_guid": "dut"
+			},
+			"FbState": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"ServiceCode": {
+				"type_guid": "dut"
+			},
+			"TCP_ADDR": {
+				"type_guid": "dut"
+			},
+			"Set_Attribute_Single": {
+				"type_guid": "pou"
+			},
+			"mClean": {
+				"type_guid": "method_with_return"
+			},
+			"mExecute": {
+				"type_guid": "method_with_return"
+			},
+			"Set_Attribute_All": {
+				"type_guid": "pou"
+			},
+			"Get_Attribute_Single": {
+				"type_guid": "pou"
+			},
+			"mDone": {
+				"type_guid": "method_with_return"
+			},
+			"Get_Attribute_All": {
+				"type_guid": "pou"
+			},
+			"FB_EipMessageBase": {
+				"type_guid": "pou"
+			},
+			"mAborted": {
+				"type_guid": "method_with_return"
+			},
+			"mError": {
+				"type_guid": "method_with_return"
+			},
+			"FB_ConnectionBase": {
+				"type_guid": "pou"
+			},
+			"EIPStopDevice": {
+				"type_guid": "pou"
+			},
+			"timTimeout": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"EIPStopConnection": {
+				"type_guid": "pou"
+			},
+			"EIPStopAllConnection": {
+				"type_guid": "pou"
+			},
+			"EIPStartDevice": {
+				"type_guid": "pou"
+			},
+			"EIPStartConnection": {
+				"type_guid": "pou"
+			},
+			"EIPStartAllConnection": {
+				"type_guid": "pou"
+			},
+			"EIPGetHealthBit": {
+				"type_guid": "pou"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"EtherNetIP Remote Adapter": {
+		"library_full_name": "ethernetip remote adapter, 1.1.3.0 (schneider electric)",
+		"version": "1.1.3.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Constants": {
+				"type_guid": "gvl"
+			},
+			"eCmdState": {
+				"type_guid": "dut"
+			},
+			"eErrorInfo": {
+				"type_guid": "dut"
+			},
+			"eServiceCode": {
+				"type_guid": "dut"
+			},
+			"eStatus": {
+				"type_guid": "dut"
+			},
+			"stConnection": {
+				"type_guid": "dut"
+			},
+			"stErrorInfo": {
+				"type_guid": "dut"
+			},
+			"stParameter": {
+				"type_guid": "dut"
+			},
+			"CopyArray": {
+				"type_guid": "pou"
+			},
+			"DwordToByteArray": {
+				"type_guid": "pou"
+			},
+			"FB_RemoteAdapter": {
+				"type_guid": "pou"
+			},
+			"ConnectionIdList": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"DisableRemoteAdapter": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Errorinfo": {
+				"type_guid": "property"
+			},
+			"Initialize": {
+				"type_guid": "method_with_return"
+			},
+			"IpAddress": {
+				"type_guid": "property"
+			},
+			"Status": {
+				"type_guid": "property"
+			},
+			"ConfigurationError": {
+				"type_guid": "method_with_return"
+			},
+			"Cyclic": {
+				"type_guid": "method_with_return"
+			},
+			"Disable": {
+				"type_guid": "method_with_return"
+			},
+			"ReadDeviceParameter": {
+				"type_guid": "method_with_return"
+			},
+			"ResetParameter": {
+				"type_guid": "method_with_return"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"EtherNetIP Scanner": {
+		"library_full_name": "ethernetip scanner, 1.0.0.9 (schneider electric)",
+		"version": "1.0.0.9",
+		"nodes": {
+			"CIPOperationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"CommunicationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"OperationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"TCP_ADDR": {
+				"type_guid": "dut"
+			},
+			"EipDataExch": {
+				"type_guid": "pou"
+			},
+			"BuildAndSendRequest": {
+				"type_guid": "method_with_return"
+			},
+			"IsResponseOK": {
+				"type_guid": "method_with_return"
+			},
+			"Gestionnaire de bibliothèque": {
+				"type_guid": "library_manager"
+			},
+			"BASE": {
+				"type_guid": "pou"
+			},
+			"eipscn_cancel_explmsg": {
+				"type_guid": "pou"
+			},
+			"eipscn_send_explmsg": {
+				"type_guid": "pou"
+			},
+			"EIP_MANAGEMENT": {
+				"type_guid": "dut"
+			},
+			"EipGetHealth": {
+				"type_guid": "pou"
+			},
+			"eipscn_gethealth": {
+				"type_guid": "pou"
+			},
+			"EipControl": {
+				"type_guid": "pou"
+			},
+			"eipscn_control": {
+				"type_guid": "pou"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"Explicit Messaging LMC": {
+		"library_full_name": "explicit messaging lmc, 1.0.0.0 (schneider electric)",
+		"version": "1.0.0.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"TCP_ADDR": {
+				"type_guid": "dut"
+			},
+			"EipDataExch": {
+				"type_guid": "pou"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"Explicit Messaging M262": {
+		"library_full_name": "explicit messaging m262, 1.0.0.0 (schneider electric)",
+		"version": "1.0.0.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"TCP_ADDR": {
+				"type_guid": "dut"
+			},
+			"EipDataExch": {
+				"type_guid": "pou"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"FtpRemoteFileHandling": {
+		"library_full_name": "ftpremotefilehandling, 1.4.5.0 (schneider electric)",
+		"version": "1.4.5.0",
+		"nodes": {
+			"ST_SecureCredentials": {
+				"type_guid": "dut"
+			},
+			"ST_Element": {
+				"type_guid": "dut"
+			},
+			"ST_Credentials": {
+				"type_guid": "dut"
+			},
+			"ST_Content": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_SftpErrorCodeToString": {
+				"type_guid": "pou"
+			},
+			"FC_ServerCodeToCategory": {
+				"type_guid": "pou"
+			},
+			"FC_Parse": {
+				"type_guid": "pou"
+			},
+			"FC_IsAbsoultePath": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtFtpCommandToString": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpWriteData": {
+				"type_guid": "pou"
+			},
+			"xDone": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Job": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SysFileSFtpReadData": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpPut": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpOpenData": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpOpen": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpLogin": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpGetResult": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpGet": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpCommand": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpCloseData": {
+				"type_guid": "pou"
+			},
+			"FB_SysFileSFtpClose": {
+				"type_guid": "pou"
+			},
+			"FB_FtpWriteSocket": {
+				"type_guid": "pou"
+			},
+			"FB_FtpSecureClient": {
+				"type_guid": "pou"
+			},
+			"ClearReadBuffer": {
+				"type_guid": "method_with_return"
+			},
+			"ClearWriteBuffer": {
+				"type_guid": "method_with_return"
+			},
+			"UpdateFolderContent": {
+				"type_guid": "method_with_return"
+			},
+			"SetTransferMode": {
+				"type_guid": "method_with_return"
+			},
+			"SetDefaults": {
+				"type_guid": "method_with_return"
+			},
+			"OpenConnection": {
+				"type_guid": "method_with_return"
+			},
+			"Login": {
+				"type_guid": "method_with_return"
+			},
+			"InputParameterCheck": {
+				"type_guid": "method_with_return"
+			},
+			"GetCredentials": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Exit": {
+				"type_guid": "method_with_return"
+			},
+			"CmdStore": {
+				"type_guid": "method_with_return"
+			},
+			"CmdRetrieve": {
+				"type_guid": "method_with_return"
+			},
+			"CmdRename": {
+				"type_guid": "method_with_return"
+			},
+			"CmdRemoveDirectory": {
+				"type_guid": "method_with_return"
+			},
+			"CmdQuit": {
+				"type_guid": "method_with_return"
+			},
+			"CmdPrintWorkingDirectory": {
+				"type_guid": "method_with_return"
+			},
+			"CmdMakeDirectory": {
+				"type_guid": "method_with_return"
+			},
+			"CmdList": {
+				"type_guid": "method_with_return"
+			},
+			"CmdDelete": {
+				"type_guid": "method_with_return"
+			},
+			"CmdChangeWorkingDirectory": {
+				"type_guid": "method_with_return"
+			},
+			"CmdAbort": {
+				"type_guid": "method_with_return"
+			},
+			"CloseDataConnection": {
+				"type_guid": "method_with_return"
+			},
+			"CloseConnection": {
+				"type_guid": "method_with_return"
+			},
+			"Working": {
+				"type_guid": "method_with_return"
+			},
+			"FB_FtpReplyGetEnhanced": {
+				"type_guid": "pou"
+			},
+			"FB_FtpReadSocket": {
+				"type_guid": "pou"
+			},
+			"FB_FtpLogin": {
+				"type_guid": "pou"
+			},
+			"FB_FtpInitDataConnPassive": {
+				"type_guid": "pou"
+			},
+			"FB_FtpHookup": {
+				"type_guid": "pou"
+			},
+			"FB_FtpCommandEnhanced": {
+				"type_guid": "pou"
+			},
+			"FB_FtpCloseSocket": {
+				"type_guid": "pou"
+			},
+			"FB_FtpClient": {
+				"type_guid": "pou"
+			},
+			"CmdRetrieveAsync": {
+				"type_guid": "method_with_return"
+			},
+			"InitDataConnectionPassive": {
+				"type_guid": "method_with_return"
+			},
+			"Hookup": {
+				"type_guid": "method_with_return"
+			},
+			"CmdStoreAsync": {
+				"type_guid": "method_with_return"
+			},
+			"CmdListAsync": {
+				"type_guid": "method_with_return"
+			},
+			"CloseSocket": {
+				"type_guid": "method_with_return"
+			},
+			"ET_ServerReturnCode": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_FtpCommand": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"HttpHandling": {
+		"library_full_name": "httphandling, 1.2.0.0 (schneider electric)",
+		"version": "1.2.0.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"TlsSettings": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"FC_GetControllerType": {
+				"type_guid": "pou"
+			},
+			"FC_EtStatusClassToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtStateToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FB_OnlineChangeManager": {
+				"type_guid": "pou"
+			},
+			"CallbackIncreaseOnlineChangeCounter": {
+				"type_guid": "method_with_return"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"FB_HttpClient": {
+				"type_guid": "pou"
+			},
+			"CheckConnectResult": {
+				"type_guid": "method_with_return"
+			},
+			"ContentLength": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"IsTlsUsed": {
+				"type_guid": "property"
+			},
+			"State": {
+				"type_guid": "property"
+			},
+			"StatusClass": {
+				"type_guid": "property"
+			},
+			"StatusCode": {
+				"type_guid": "property"
+			},
+			"RequestResponseBase": {
+				"type_guid": "method_with_return"
+			},
+			"IsHeadActive": {
+				"type_guid": "property"
+			},
+			"IsGetActive": {
+				"type_guid": "property"
+			},
+			"IsDeleteActive": {
+				"type_guid": "property"
+			},
+			"Delete": {
+				"type_guid": "method_with_return"
+			},
+			"GetStatusCode": {
+				"type_guid": "method_with_return"
+			},
+			"IsChunked": {
+				"type_guid": "method_with_return"
+			},
+			"IsConnected": {
+				"type_guid": "property"
+			},
+			"AcknowledgeResponse": {
+				"type_guid": "method_with_return"
+			},
+			"ConnectToServer": {
+				"type_guid": "method_with_return"
+			},
+			"IsPostActive": {
+				"type_guid": "property"
+			},
+			"IsPutActive": {
+				"type_guid": "property"
+			},
+			"LatchAnyTypes": {
+				"type_guid": "method_with_return"
+			},
+			"ParseResponseHeader": {
+				"type_guid": "method_with_return"
+			},
+			"Post": {
+				"type_guid": "method_with_return"
+			},
+			"Put": {
+				"type_guid": "method_with_return"
+			},
+			"Reset": {
+				"type_guid": "method_with_return"
+			},
+			"ResetActiveBit": {
+				"type_guid": "method_with_return"
+			},
+			"ResetFbVariables": {
+				"type_guid": "method_with_return"
+			},
+			"ResponseLength": {
+				"type_guid": "property"
+			},
+			"Send": {
+				"type_guid": "method_with_return"
+			},
+			"Receive": {
+				"type_guid": "method_with_return"
+			},
+			"ContentStartIndex": {
+				"type_guid": "property"
+			},
+			"CreateDefaultHeader": {
+				"type_guid": "method_with_return"
+			},
+			"DisconnectFromServer": {
+				"type_guid": "method_with_return"
+			},
+			"ErrorResult": {
+				"type_guid": "property"
+			},
+			"GetChunkLength": {
+				"type_guid": "method_with_return"
+			},
+			"GetContentLength": {
+				"type_guid": "method_with_return"
+			},
+			"Head": {
+				"type_guid": "method_with_return"
+			},
+			"HeaderLength": {
+				"type_guid": "property"
+			},
+			"InputParameterCheck": {
+				"type_guid": "method_with_return"
+			},
+			"IsChunkedMessageComplete": {
+				"type_guid": "method_with_return"
+			},
+			"IsContentChunked": {
+				"type_guid": "property"
+			},
+			"ET_StatusClass": {
+				"type_guid": "dut"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_Controller": {
+				"type_guid": "dut"
+			},
+			"ET_Command": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"IoDrvDistributedIo": {
+		"library_full_name": "iodrvdistributedio, 3.3.1.3 (schneider electric)",
+		"version": "3.3.1.3",
+		"nodes": {
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"NETWORK_IF": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"IoDrvDistributedIo": {
+				"type_guid": "pou"
+			},
+			"IoDrvReadParameter": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Init": {
+				"type_guid": "method_with_return"
+			},
+			"IoGetDiag": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Exit": {
+				"type_guid": "method_with_return"
+			},
+			"Initialize": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvGetModuleDiagnosis": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvGetConnector": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Reinit": {
+				"type_guid": "method_with_return"
+			},
+			"QueryInterface": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvStartBusCycle": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvReadInputs": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvWriteOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvScanModules": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvWatchdogTrigger": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvWriteParameter": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvUpdateMapping": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvIdentify": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvUpdateConfiguration": {
+				"type_guid": "method_with_return"
+			}
+		}
+	},
+	"IoDrvTM4PDPS1": {
+		"library_full_name": "iodrvtm4pdps1, 4.0.1.8 (schneider electric)",
+		"version": "4.0.1.8",
+		"nodes": {
+			"m258fwAction": {
+				"type_guid": "pou"
+			},
+			"FB_MWCallBack": {
+				"type_guid": "pou"
+			},
+			"AsyncRead": {
+				"type_guid": "method_with_return"
+			},
+			"AsyncWrite": {
+				"type_guid": "method_with_return"
+			},
+			"GVL_Tm5pcdps": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"ConstSpecific": {
+				"type_guid": "gvl"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"IoDrvTM4PDPS1": {
+				"type_guid": "pou"
+			},
+			"CheckStates": {
+				"type_guid": "method_with_return"
+			},
+			"CIFX_EndConfiguration": {
+				"type_guid": "method_with_return"
+			},
+			"CIFX_PrepareConfiguration": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvUpdateConfiguration_USB": {
+				"type_guid": "method_with_return"
+			},
+			"RegisterApplication": {
+				"type_guid": "method_with_return"
+			},
+			"GetDebugComponentInfo": {
+				"type_guid": "method_with_return"
+			},
+			"SetPostConfBaudRate": {
+				"type_guid": "method_with_return"
+			},
+			"SetDiag": {
+				"type_guid": "method_with_return"
+			},
+			"CIFX_StartBusCycle": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Exit": {
+				"type_guid": "method_with_return"
+			},
+			"Initialize": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvGetModuleDiagnosis": {
+				"type_guid": "method_with_return"
+			},
+			"CheckFirmwareViaDPM": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvReadInputs": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvStartBusCycle": {
+				"type_guid": "method_with_return"
+			},
+			"CIFX_GetIOMemoryArea": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvWriteOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"ReinitializeChannel": {
+				"type_guid": "method_with_return"
+			},
+			"ResetDiag": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Init": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvUpdateConfiguration": {
+				"type_guid": "method_with_return"
+			}
+		}
+	},
+	"IoDrvTM5PCDPS": {
+		"library_full_name": "iodrvtm5pcdps, 1.0.1.0 (schneider electric)",
+		"version": "1.0.1.0",
+		"nodes": {
+			"GVL_Tm5pcdps": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"ConstSpecific": {
+				"type_guid": "gvl"
+			},
+			"m258fwAction": {
+				"type_guid": "pou"
+			},
+			"FB_MWCallBack": {
+				"type_guid": "pou"
+			},
+			"AsyncWrite": {
+				"type_guid": "method_with_return"
+			},
+			"AsyncRead": {
+				"type_guid": "method_with_return"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"IoDrvTM5PCDPS": {
+				"type_guid": "pou"
+			},
+			"Initialize": {
+				"type_guid": "method_with_return"
+			},
+			"SetPostConfBaudRate": {
+				"type_guid": "method_with_return"
+			},
+			"PciSlotId": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"SetDiag": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Init": {
+				"type_guid": "method_with_return"
+			},
+			"ResetDiag": {
+				"type_guid": "method_with_return"
+			},
+			"IoDrvUpdateConfiguration": {
+				"type_guid": "method_with_return"
+			}
+		}
+	},
+	"IoLinkHandling": {
+		"library_full_name": "iolinkhandling, 1.1.1.0 (schneider electric)",
+		"version": "1.1.1.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FB_DeviceBase": {
+				"type_guid": "pou"
+			},
+			"mAbortRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mBuildAndTriggerRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckBaseInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mLatchBaseInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mLatchInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mProcessResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mSelectIoLinkMaster": {
+				"type_guid": "method_with_return"
+			},
+			"mSetResultOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"FB_MasterBase": {
+				"type_guid": "pou"
+			},
+			"mIsResponseReceived": {
+				"type_guid": "method_with_return"
+			},
+			"mResetInternal": {
+				"type_guid": "method_with_return"
+			},
+			"FB_ReadDeviceParameter": {
+				"type_guid": "pou"
+			},
+			"FB_ReadMasterUserParameter": {
+				"type_guid": "pou"
+			},
+			"mBuildAndTriggerSercosRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mIsResponseReceivedSercosRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mProcessResponseSercosRequest": {
+				"type_guid": "method_with_return"
+			},
+			"FB_RegisterEvent": {
+				"type_guid": "pou"
+			},
+			"EventCallback": {
+				"type_guid": "method_no_return"
+			},
+			"RegisterCallback": {
+				"type_guid": "method_with_return"
+			},
+			"ResetOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"FB_WriteDeviceParameter": {
+				"type_guid": "pou"
+			},
+			"FB_WriteMasterUserParameter": {
+				"type_guid": "pou"
+			},
+			"mBuildAndTriggerEthIpRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckOperatingMode": {
+				"type_guid": "method_with_return"
+			},
+			"mGetChannelType": {
+				"type_guid": "method_with_return"
+			},
+			"mIsResponseReceivedEthIpRequest": {
+				"type_guid": "method_with_return"
+			},
+			"ET_EventInstanceLayer": {
+				"type_guid": "dut"
+			},
+			"ET_EventMode": {
+				"type_guid": "dut"
+			},
+			"ET_EventSource": {
+				"type_guid": "dut"
+			},
+			"ET_OperatingMode": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_UserParameter": {
+				"type_guid": "dut"
+			},
+			"ST_EventParameters": {
+				"type_guid": "dut"
+			},
+			"ST_IoLinkEvent": {
+				"type_guid": "dut"
+			},
+			"ST_ParameterAddress": {
+				"type_guid": "dut"
+			},
+			"IF_IoLinkEvent": {
+				"type_guid": "interface"
+			},
+			"FB_Base": {
+				"type_guid": "pou"
+			},
+			"mResetOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"ET_EventType": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"M2xx Communication": {
+		"library_full_name": "m2xx communication, 2.0.2.6 (schneider electric)",
+		"version": "2.0.2.6",
+		"nodes": {
+			"LinkNumber": {
+				"type_guid": "dut"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"SERIAL_CONF": {
+				"type_guid": "dut"
+			},
+			"GetSerialConf": {
+				"type_guid": "pou"
+			},
+			"SetSerialConf": {
+				"type_guid": "pou"
+			}
+		}
+	},
+	"ModbusHandling": {
+		"library_full_name": "modbushandling, 1.0.7.0 (schneider electric)",
+		"version": "1.0.7.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FC_BoolToBit": {
+				"type_guid": "pou"
+			},
+			"FB_ReadWriteMultiple": {
+				"type_guid": "pou"
+			},
+			"BuildPduFrame": {
+				"type_guid": "method_with_return"
+			},
+			"Preparing": {
+				"type_guid": "method_with_return"
+			},
+			"uiMaxNumberOfObjects": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"FB_ReadWriteMultipleInOutputs": {
+				"type_guid": "pou"
+			},
+			"CopyResponseData": {
+				"type_guid": "method_with_return"
+			},
+			"FB_ReadWriteMultipleRegisters": {
+				"type_guid": "pou"
+			},
+			"FB_WriteSingle": {
+				"type_guid": "pou"
+			},
+			"ET_ConnectionStatus": {
+				"type_guid": "dut"
+			},
+			"FB_TcpServer": {
+				"type_guid": "pou"
+			},
+			"IsListening": {
+				"type_guid": "property"
+			},
+			"mAddConnectionToList": {
+				"type_guid": "method_with_return"
+			},
+			"ResultMsg": {
+				"type_guid": "property"
+			},
+			"NumberOfClientConnections": {
+				"type_guid": "property"
+			},
+			"mUpdateClientActivity": {
+				"type_guid": "method_with_return"
+			},
+			"mSetBufferSize": {
+				"type_guid": "method_with_return"
+			},
+			"mSendResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mRemoveConnectionFromList": {
+				"type_guid": "method_with_return"
+			},
+			"mOpenServer": {
+				"type_guid": "method_with_return"
+			},
+			"mIsServerOkay": {
+				"type_guid": "method_with_return"
+			},
+			"mIsConnectionReadable": {
+				"type_guid": "method_with_return"
+			},
+			"mIsClientAuthorized": {
+				"type_guid": "method_with_return"
+			},
+			"mGetReadableClients": {
+				"type_guid": "method_with_return"
+			},
+			"mGetData": {
+				"type_guid": "method_with_return"
+			},
+			"mDisconnectOldestClient": {
+				"type_guid": "method_with_return"
+			},
+			"mDisconnectInactiveClients": {
+				"type_guid": "method_with_return"
+			},
+			"mDisconnectClient": {
+				"type_guid": "method_with_return"
+			},
+			"mCloseServer": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckForNewClientConnection": {
+				"type_guid": "method_with_return"
+			},
+			"mUpdateListOfConnectedClients": {
+				"type_guid": "method_with_return"
+			},
+			"FB_OnlineChangeManager": {
+				"type_guid": "pou"
+			},
+			"CallbackIncreaseOnlineChangeCounter": {
+				"type_guid": "method_with_return"
+			},
+			"InitCallbackDone": {
+				"type_guid": "property"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"BufferPDU": {
+				"type_guid": "dut"
+			},
+			"ST_ModbusTcpADU": {
+				"type_guid": "dut"
+			},
+			"ST_MemoryBlock": {
+				"type_guid": "dut"
+			},
+			"ST_MBAPHeader": {
+				"type_guid": "dut"
+			},
+			"ST_Connection": {
+				"type_guid": "dut"
+			},
+			"ST_ConnectedClient": {
+				"type_guid": "dut"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL_int": {
+				"type_guid": "gvl"
+			},
+			"FC_VerifyMBAPHeader": {
+				"type_guid": "pou"
+			},
+			"FC_VerifyAddressRange": {
+				"type_guid": "pou"
+			},
+			"FC_Int16ToBytes": {
+				"type_guid": "pou"
+			},
+			"FC_BytesToInt16": {
+				"type_guid": "pou"
+			},
+			"FC_ByteSwapInt16": {
+				"type_guid": "pou"
+			},
+			"FB_ConnectionManager": {
+				"type_guid": "pou"
+			},
+			"CloseAllInactiveConnections": {
+				"type_guid": "method_no_return"
+			},
+			"FB_Init": {
+				"type_guid": "method_with_return"
+			},
+			"mUpdateResponseData": {
+				"type_guid": "method_with_return"
+			},
+			"mUpdateConnectionStatus": {
+				"type_guid": "method_with_return"
+			},
+			"mSendRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mSelectRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mSelectConnection": {
+				"type_guid": "method_with_return"
+			},
+			"mResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mResolveTransactionId": {
+				"type_guid": "method_with_return"
+			},
+			"mResetRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mReceiveResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mOpenConnection": {
+				"type_guid": "method_with_return"
+			},
+			"mEncodeData": {
+				"type_guid": "method_with_return"
+			},
+			"mCompleteRequests": {
+				"type_guid": "method_with_return"
+			},
+			"mCloseConnection": {
+				"type_guid": "method_with_return"
+			},
+			"GetNumberOfOpenConnections": {
+				"type_guid": "method_no_return"
+			},
+			"CloseAllConnections": {
+				"type_guid": "method_no_return"
+			},
+			"ET_RequestStatus": {
+				"type_guid": "dut"
+			},
+			"ET_ExceptionCode": {
+				"type_guid": "dut"
+			},
+			"FB_ExecuteAbortDiag": {
+				"type_guid": "pou"
+			},
+			"Error": {
+				"type_guid": "method_with_return"
+			},
+			"usiFunctionCode": {
+				"type_guid": "property"
+			},
+			"usiResponseDataLength": {
+				"type_guid": "property"
+			},
+			"Aborting": {
+				"type_guid": "method_with_return"
+			},
+			"CopyOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"Done": {
+				"type_guid": "method_with_return"
+			},
+			"Executing": {
+				"type_guid": "method_with_return"
+			},
+			"VerifyIpAddr": {
+				"type_guid": "method_with_return"
+			},
+			"Aborted": {
+				"type_guid": "method_with_return"
+			},
+			"AnalyzeResponseData": {
+				"type_guid": "method_with_return"
+			},
+			"Clean": {
+				"type_guid": "method_with_return"
+			},
+			"ResetPduData": {
+				"type_guid": "method_with_return"
+			},
+			"ST_Request": {
+				"type_guid": "dut"
+			},
+			"ST_StartAddressConfig": {
+				"type_guid": "dut"
+			},
+			"IF_ConnectionManager": {
+				"type_guid": "interface"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FB_WriteSingleRegister": {
+				"type_guid": "pou"
+			},
+			"FB_WriteSingleCoil": {
+				"type_guid": "pou"
+			},
+			"FB_WriteReadMultipleRegisters": {
+				"type_guid": "pou"
+			},
+			"FB_WriteMultipleRegisters": {
+				"type_guid": "pou"
+			},
+			"FB_WriteMultipleCoils": {
+				"type_guid": "pou"
+			},
+			"FB_ReadInputRegisters": {
+				"type_guid": "pou"
+			},
+			"FB_ReadHoldingRegisters": {
+				"type_guid": "pou"
+			},
+			"FB_ReadDiscreteInputs": {
+				"type_guid": "pou"
+			},
+			"FB_ReadCoils": {
+				"type_guid": "pou"
+			},
+			"FB_ModbusTcpServer": {
+				"type_guid": "pou"
+			},
+			"mCreateExceptionResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mExecuteReadBits": {
+				"type_guid": "method_with_return"
+			},
+			"mExecuteReadRegisters": {
+				"type_guid": "method_with_return"
+			},
+			"mExecuteWriteCoils": {
+				"type_guid": "method_with_return"
+			},
+			"mExecuteWriteRegisters": {
+				"type_guid": "method_with_return"
+			},
+			"mInitializeInternalMemoryBlockInfo": {
+				"type_guid": "method_with_return"
+			},
+			"mVerifyAppMemoryAssignement": {
+				"type_guid": "method_with_return"
+			},
+			"mVerifyRequestPDU": {
+				"type_guid": "method_with_return"
+			},
+			"TimeoutInactiveConnections": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Activating": {
+				"type_guid": "method_with_return"
+			},
+			"Deactivating": {
+				"type_guid": "method_with_return"
+			},
+			"Idle": {
+				"type_guid": "method_with_return"
+			},
+			"mProcessData": {
+				"type_guid": "method_with_return"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"ModbusTCP Remote Adapter": {
+		"library_full_name": "modbustcp remote adapter, 1.0.0.13 (schneider electric)",
+		"version": "1.0.0.13",
+		"nodes": {
+			"stParameter": {
+				"type_guid": "dut"
+			},
+			"stErrorInfo": {
+				"type_guid": "dut"
+			},
+			"stConnection": {
+				"type_guid": "dut"
+			},
+			"eStatus": {
+				"type_guid": "dut"
+			},
+			"eErrorInfo": {
+				"type_guid": "dut"
+			},
+			"eCmdState": {
+				"type_guid": "dut"
+			},
+			"DwordToByteArray": {
+				"type_guid": "pou"
+			},
+			"CopyArray": {
+				"type_guid": "pou"
+			},
+			"FB_RemoteAdapter": {
+				"type_guid": "pou"
+			},
+			"ControlChannels": {
+				"type_guid": "method_with_return"
+			},
+			"Restart": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"IoScannerOperationnalAndPlcRunning": {
+				"type_guid": "method_with_return"
+			},
+			"Status": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"ResetParameter": {
+				"type_guid": "method_with_return"
+			},
+			"ReadDeviceParameter": {
+				"type_guid": "method_with_return"
+			},
+			"IpAddress": {
+				"type_guid": "property"
+			},
+			"Initialize": {
+				"type_guid": "method_with_return"
+			},
+			"Errorinfo": {
+				"type_guid": "property"
+			},
+			"DisableRemoteAdapter": {
+				"type_guid": "property"
+			},
+			"Disable": {
+				"type_guid": "method_with_return"
+			},
+			"Cyclic": {
+				"type_guid": "method_with_return"
+			},
+			"ConnectionIdList": {
+				"type_guid": "property"
+			},
+			"ConfigurationError": {
+				"type_guid": "method_with_return"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"ModbusTCPIOScanner": {
+		"library_full_name": "modbustcpioscanner, 1.0.0.9 (schneider electric)",
+		"version": "1.0.0.9",
+		"nodes": {
+			"IOS_CONTROLCHANNEL": {
+				"type_guid": "pou"
+			},
+			"ioscn_disable_scanentry": {
+				"type_guid": "pou"
+			},
+			"ioscn_enable_scanentry": {
+				"type_guid": "pou"
+			},
+			"IosStateCodes": {
+				"type_guid": "dut"
+			},
+			"CommunicationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"configurationOTBErrorCodes": {
+				"type_guid": "dut"
+			},
+			"IOS_GETSTATE": {
+				"type_guid": "pou"
+			},
+			"IOS_START": {
+				"type_guid": "pou"
+			},
+			"ioscn_getstate": {
+				"type_guid": "pou"
+			},
+			"IOS_GETHEALTH": {
+				"type_guid": "pou"
+			},
+			"IOS_STOP": {
+				"type_guid": "pou"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"CONFIGURE_OTB": {
+				"type_guid": "pou"
+			},
+			"ioscn_getnbchannelinit": {
+				"type_guid": "pou"
+			},
+			"ioscn_gethealth": {
+				"type_guid": "pou"
+			},
+			"ioscn_getchannelinit": {
+				"type_guid": "pou"
+			},
+			"ioscn_cmd": {
+				"type_guid": "pou"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"Modem": {
+		"library_full_name": "modem, 1.0.1.5 (schneider electric)",
+		"version": "1.0.1.5",
+		"nodes": {
+			"Dial": {
+				"type_guid": "pou"
+			},
+			"SerialLineConfiguration": {
+				"type_guid": "pou"
+			},
+			"Restore": {
+				"type_guid": "method_with_return"
+			},
+			"SetModem": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveSMS": {
+				"type_guid": "pou"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"OperationErrorCodesExt": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FormatDateTime": {
+				"type_guid": "pou"
+			},
+			"ArrayOfByteToString": {
+				"type_guid": "pou"
+			},
+			"HangUp": {
+				"type_guid": "pou"
+			},
+			"StringToArrayOfByte": {
+				"type_guid": "pou"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"BASE": {
+				"type_guid": "pou"
+			},
+			"IsResponseOk": {
+				"type_guid": "method_with_return"
+			},
+			"BuildAndSendRequest": {
+				"type_guid": "method_with_return"
+			},
+			"StringsToATCommandBuffer": {
+				"type_guid": "pou"
+			},
+			"SendSMS": {
+				"type_guid": "pou"
+			},
+			"ConfigSim": {
+				"type_guid": "pou"
+			}
+		}
+	},
+	"MqttHandling": {
+		"library_full_name": "mqtthandling, 2.2.1.0 (schneider electric)",
+		"version": "2.2.1.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"ST_WillMessage": {
+				"type_guid": "dut"
+			},
+			"ST_TlsSettings": {
+				"type_guid": "dut"
+			},
+			"ST_Timeout": {
+				"type_guid": "dut"
+			},
+			"ST_SubscribedTopic": {
+				"type_guid": "dut"
+			},
+			"ST_SubscribeTopic": {
+				"type_guid": "dut"
+			},
+			"ST_Subscribe": {
+				"type_guid": "dut"
+			},
+			"ST_PublishMessage": {
+				"type_guid": "dut"
+			},
+			"ST_Publish": {
+				"type_guid": "dut"
+			},
+			"ST_MqttServerParameter": {
+				"type_guid": "dut"
+			},
+			"ST_Credentials": {
+				"type_guid": "dut"
+			},
+			"ST_ConnectionSettings": {
+				"type_guid": "dut"
+			},
+			"IF_Subscriber": {
+				"type_guid": "interface"
+			},
+			"ObsoleteFlag": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"Topic": {
+				"type_guid": "property"
+			},
+			"NewMessage": {
+				"type_guid": "method_with_return"
+			},
+			"IF_Publisher": {
+				"type_guid": "interface"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"FC_GetRemainingLength": {
+				"type_guid": "pou"
+			},
+			"FC_GetQoS": {
+				"type_guid": "pou"
+			},
+			"FC_GetControllerType": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_CreateFixedHeader": {
+				"type_guid": "pou"
+			},
+			"FB_ProxyHandlerHttpConnect": {
+				"type_guid": "dut"
+			},
+			"FB_OnlineChangeManager": {
+				"type_guid": "pou"
+			},
+			"RegisterSubscribe": {
+				"type_guid": "method_with_return"
+			},
+			"CallbackSetObsoleteFlag": {
+				"type_guid": "method_with_return"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"NumberOfSubscriptions": {
+				"type_guid": "property"
+			},
+			"UnregisterAllSubscribe": {
+				"type_guid": "method_with_return"
+			},
+			"UnregisterSubscribe": {
+				"type_guid": "method_with_return"
+			},
+			"FB_MqttSubscribe": {
+				"type_guid": "pou"
+			},
+			"CreateVariableHeaderAndPayload": {
+				"type_guid": "method_with_return"
+			},
+			"CopyMessage": {
+				"type_guid": "method_with_return"
+			},
+			"InputParameterCheck": {
+				"type_guid": "method_with_return"
+			},
+			"PreparePuback": {
+				"type_guid": "method_with_return"
+			},
+			"ProcessMessage": {
+				"type_guid": "method_with_return"
+			},
+			"FB_MqttPublish": {
+				"type_guid": "pou"
+			},
+			"AppendPayload": {
+				"type_guid": "method_with_return"
+			},
+			"CreateVariableHeader": {
+				"type_guid": "method_with_return"
+			},
+			"FB_MqttClient": {
+				"type_guid": "pou"
+			},
+			"UnregisterPublish": {
+				"type_guid": "method_with_return"
+			},
+			"ProxyHandler": {
+				"type_guid": "property"
+			},
+			"ProcessMessages": {
+				"type_guid": "method_with_return"
+			},
+			"GetSubscribeInstanceFromTopic": {
+				"type_guid": "method_with_return"
+			},
+			"AddSubscribedTopic": {
+				"type_guid": "method_with_return"
+			},
+			"RegisterPublish": {
+				"type_guid": "method_with_return"
+			},
+			"UpdateBuffer": {
+				"type_guid": "method_with_return"
+			},
+			"UnregisterUnsubscribe": {
+				"type_guid": "method_with_return"
+			},
+			"SendingFlag": {
+				"type_guid": "property"
+			},
+			"SendMessage": {
+				"type_guid": "method_with_return"
+			},
+			"ResetSendingFlag": {
+				"type_guid": "method_with_return"
+			},
+			"RemoveSubscribedTopic": {
+				"type_guid": "method_with_return"
+			},
+			"RegisterUnsubscribe": {
+				"type_guid": "method_with_return"
+			},
+			"AppendPayloadToConnect": {
+				"type_guid": "method_with_return"
+			},
+			"IsSubscribePossible": {
+				"type_guid": "property"
+			},
+			"IsAlreadySubscribed": {
+				"type_guid": "method_with_return"
+			},
+			"InitProtocolVariables": {
+				"type_guid": "method_with_return"
+			},
+			"GetNewPacketIdentifier": {
+				"type_guid": "property"
+			},
+			"ConnectedToBroker": {
+				"type_guid": "property"
+			},
+			"CheckObsoleteFlag": {
+				"type_guid": "method_with_return"
+			},
+			"VerifyHostname": {
+				"type_guid": "method_with_return"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_QualityOfService": {
+				"type_guid": "dut"
+			},
+			"ET_MessageType": {
+				"type_guid": "dut"
+			},
+			"ET_Controller": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"OpcUaHandling": {
+		"library_full_name": "opcuahandling, 2.1.9.0 (schneider electric)",
+		"version": "2.1.9.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"UA_Connect": {
+				"type_guid": "pou"
+			},
+			"mBuildAndTriggerRequest": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mProcessResponse": {
+				"type_guid": "method_with_return"
+			},
+			"mResetAllSpecificOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"ErrorID2": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"UA_TranslatePathList": {
+				"type_guid": "pou"
+			},
+			"mLatchInputs": {
+				"type_guid": "method_with_return"
+			},
+			"UA_SubscriptionProcessed": {
+				"type_guid": "pou"
+			},
+			"UA_SubscriptionDelete": {
+				"type_guid": "pou"
+			},
+			"UA_NodeReleaseHandleList": {
+				"type_guid": "pou"
+			},
+			"UA_MonitoredItemAddList": {
+				"type_guid": "pou"
+			},
+			"UA_Disconnect": {
+				"type_guid": "pou"
+			},
+			"UA_ConnectionGetStatus": {
+				"type_guid": "pou"
+			},
+			"FB_TimeStamper": {
+				"type_guid": "pou"
+			},
+			"EventCallback": {
+				"type_guid": "method_with_return"
+			},
+			"mInitFB": {
+				"type_guid": "method_with_return"
+			},
+			"mResetFwFlag": {
+				"type_guid": "method_with_return"
+			},
+			"mCompare": {
+				"type_guid": "method_with_return"
+			},
+			"mRegisterCallback": {
+				"type_guid": "method_with_return"
+			},
+			"mResetFB": {
+				"type_guid": "method_with_return"
+			},
+			"UABrowseResultMask": {
+				"type_guid": "dut"
+			},
+			"UATransportProfile": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseTranslatePathList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseTimestampCyclic": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseSubscriptionCreate": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseReadList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseNodeGetInformation": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseNamespaceGetIndexList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseMonitoredItemOperateList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseMonitoredItemAddList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseGetHandleList": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseConnectionGetStatus": {
+				"type_guid": "dut"
+			},
+			"ST_Credentials": {
+				"type_guid": "dut"
+			},
+			"UAUserIdentityTokenType": {
+				"type_guid": "dut"
+			},
+			"UAServerState": {
+				"type_guid": "dut"
+			},
+			"UANodeClassMask": {
+				"type_guid": "dut"
+			},
+			"UASecurityPolicy": {
+				"type_guid": "dut"
+			},
+			"UASecurityMsgMode": {
+				"type_guid": "dut"
+			},
+			"UAMonitoringSyncMode": {
+				"type_guid": "dut"
+			},
+			"UAIdentifierType": {
+				"type_guid": "dut"
+			},
+			"UADeadbandType": {
+				"type_guid": "dut"
+			},
+			"UAConnectionStatus": {
+				"type_guid": "dut"
+			},
+			"UABrowseDirection": {
+				"type_guid": "dut"
+			},
+			"UAAttributeID": {
+				"type_guid": "dut"
+			},
+			"ET_VarType": {
+				"type_guid": "dut"
+			},
+			"ET_TimeStampVarType": {
+				"type_guid": "dut"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ST_TimeStampResult": {
+				"type_guid": "dut"
+			},
+			"ST_Variable": {
+				"type_guid": "dut"
+			},
+			"UABrowseDescription": {
+				"type_guid": "dut"
+			},
+			"UABrowsePath": {
+				"type_guid": "dut"
+			},
+			"UAExpandedNodeID": {
+				"type_guid": "dut"
+			},
+			"UAIndexRange": {
+				"type_guid": "dut"
+			},
+			"UALocalizedText": {
+				"type_guid": "dut"
+			},
+			"UAMonitoredVariables": {
+				"type_guid": "dut"
+			},
+			"UAMonitoringParameter": {
+				"type_guid": "dut"
+			},
+			"UANodeAdditionalInfo": {
+				"type_guid": "dut"
+			},
+			"UANodeID": {
+				"type_guid": "dut"
+			},
+			"UANodeInformation": {
+				"type_guid": "dut"
+			},
+			"UAQualifiedName": {
+				"type_guid": "dut"
+			},
+			"UAReferenceDescription": {
+				"type_guid": "dut"
+			},
+			"UARelativePath": {
+				"type_guid": "dut"
+			},
+			"UARelativePathElement": {
+				"type_guid": "dut"
+			},
+			"UAUserIdentityToken": {
+				"type_guid": "dut"
+			},
+			"UAViewDescription": {
+				"type_guid": "dut"
+			},
+			"FB_AsyncCheckVarExistence": {
+				"type_guid": "pou"
+			},
+			"Job": {
+				"type_guid": "method_with_return"
+			},
+			"xDone": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"FC_BytesToCopy": {
+				"type_guid": "pou"
+			},
+			"FC_UAConnectionStatusToString": {
+				"type_guid": "pou"
+			},
+			"FC_UATransportProfileToString": {
+				"type_guid": "pou"
+			},
+			"FC_UAServerStateToString": {
+				"type_guid": "pou"
+			},
+			"FC_UASecurityPolicyToString": {
+				"type_guid": "pou"
+			},
+			"FC_UASecurityMsgModeToString": {
+				"type_guid": "pou"
+			},
+			"FC_UAMonitoringSyncModeToString": {
+				"type_guid": "pou"
+			},
+			"FC_UAIdentifierTypeToString": {
+				"type_guid": "pou"
+			},
+			"FC_UABrowseDirectionToString": {
+				"type_guid": "pou"
+			},
+			"FC_ConvertFwErrorID": {
+				"type_guid": "pou"
+			},
+			"FC_UAAttributeIDToString": {
+				"type_guid": "pou"
+			},
+			"FC_IsUriValid": {
+				"type_guid": "pou"
+			},
+			"FC_IsMoreThanOneValue": {
+				"type_guid": "pou"
+			},
+			"FC_EtVarTypeToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtTimeStampVarTypeToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_UAUserIdentityTokenTypeToString": {
+				"type_guid": "pou"
+			},
+			"FB_UAClientBase": {
+				"type_guid": "pou"
+			},
+			"UA_Browse": {
+				"type_guid": "pou"
+			},
+			"UA_SubscriptionCreate": {
+				"type_guid": "pou"
+			},
+			"UA_ReadList": {
+				"type_guid": "pou"
+			},
+			"UA_NodeGetInformation": {
+				"type_guid": "pou"
+			},
+			"UA_NodeGetHandleList": {
+				"type_guid": "pou"
+			},
+			"UA_NamespaceGetIndexList": {
+				"type_guid": "pou"
+			},
+			"UA_MonitoredItemRemoveList": {
+				"type_guid": "pou"
+			},
+			"UA_MonitoredItemOperateList": {
+				"type_guid": "pou"
+			},
+			"UA_WriteList": {
+				"type_guid": "pou"
+			},
+			"ST_VarInfo": {
+				"type_guid": "dut"
+			},
+			"UASessionConnectInfo": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"PLCCommunication": {
+		"library_full_name": "plccommunication, 1.0.3.7 (schneider electric)",
+		"version": "1.0.3.7",
+		"nodes": {
+			"STR_TO_IP": {
+				"type_guid": "pou"
+			},
+			"_SendRecv": {
+				"type_guid": "pou"
+			},
+			"_Cancel": {
+				"type_guid": "pou"
+			},
+			"IS_LITTLE_ENDIAN": {
+				"type_guid": "pou"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"MY_STR_TO_WORD": {
+				"type_guid": "pou"
+			},
+			"SINGLE_WRITE": {
+				"type_guid": "pou"
+			},
+			"IsResponseOK": {
+				"type_guid": "method_with_return"
+			},
+			"BuildAndSendRequest": {
+				"type_guid": "method_with_return"
+			},
+			"BASE": {
+				"type_guid": "pou"
+			},
+			"READ_VAR": {
+				"type_guid": "pou"
+			},
+			"ADDRESS": {
+				"type_guid": "dut"
+			},
+			"CommunicationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"TCP_ADDR_EXT": {
+				"type_guid": "dut"
+			},
+			"STR_TO_ADDM": {
+				"type_guid": "pou"
+			},
+			"OperationErrorCodes": {
+				"type_guid": "dut"
+			},
+			"LinkNumber": {
+				"type_guid": "dut"
+			},
+			"MANAGEMENT": {
+				"type_guid": "dut"
+			},
+			"COPY_SWAP_LITTLE": {
+				"type_guid": "pou"
+			},
+			"MY_STR_TO_BYTE": {
+				"type_guid": "pou"
+			},
+			"SEND_RECV_MSG": {
+				"type_guid": "pou"
+			},
+			"NbRecvBytes": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"ObjectType": {
+				"type_guid": "dut"
+			},
+			"WRITE_VAR": {
+				"type_guid": "pou"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"WRITE_READ_VAR": {
+				"type_guid": "pou"
+			},
+			"ADDM": {
+				"type_guid": "pou"
+			},
+			"IsZerosOnly": {
+				"type_guid": "pou"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"IsNumberOnly": {
+				"type_guid": "pou"
+			},
+			"ADDR_EXT": {
+				"type_guid": "dut"
+			}
+		}
+	},
+	"ProxyCommunicationSupport": {
+		"library_full_name": "proxycommunicationsupport, 1.0.5.0 (schneider electric)",
+		"version": "1.0.5.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FC_GetHardwareRev": {
+				"type_guid": "pou"
+			},
+			"IF_ProxyHandler": {
+				"type_guid": "interface"
+			},
+			"ConnectToProxy": {
+				"type_guid": "method_with_return"
+			},
+			"ConnectToRemoteServer": {
+				"type_guid": "method_with_return"
+			},
+			"Abort": {
+				"type_guid": "method_with_return"
+			},
+			"Result": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"ResultMsg": {
+				"type_guid": "property"
+			},
+			"IF_CallbackProxyHandler": {
+				"type_guid": "interface"
+			},
+			"MessageToSend": {
+				"type_guid": "method_no_return"
+			},
+			"VerifyResponse": {
+				"type_guid": "method_no_return"
+			},
+			"FB_ProxyHandlerHttpConnect": {
+				"type_guid": "pou"
+			},
+			"InitializeBuffer": {
+				"type_guid": "method_with_return"
+			},
+			"SetValueProxyAuth": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Exit": {
+				"type_guid": "method_with_return"
+			},
+			"RegisterCallback": {
+				"type_guid": "method_with_return"
+			},
+			"Response": {
+				"type_guid": "property"
+			},
+			"UnregisterCallback": {
+				"type_guid": "method_with_return"
+			},
+			"FB_ProxyHandlerBase": {
+				"type_guid": "pou"
+			},
+			"ProxyIpAddr": {
+				"type_guid": "property"
+			},
+			"ProxyPort": {
+				"type_guid": "property"
+			},
+			"SocketConnect": {
+				"type_guid": "property"
+			},
+			"SocketType": {
+				"type_guid": "property"
+			},
+			"State": {
+				"type_guid": "property"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_SocketType": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"Scanner Diagnostic": {
+		"library_full_name": "scanner diagnostic, 1.0.0.4 (schneider electric)",
+		"version": "1.0.0.4",
+		"nodes": {
+			"Gestionnaire de bibliothèque": {
+				"type_guid": "library_manager"
+			},
+			"IOS_GETDIAGSTATUS": {
+				"type_guid": "pou"
+			},
+			"eipscn_getdiagstatus": {
+				"type_guid": "pou"
+			},
+			"ioscn_getdiagstatus": {
+				"type_guid": "pou"
+			},
+			"EIP_GETDIAGSTATUS": {
+				"type_guid": "pou"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SercosCommunication": {
+		"library_full_name": "sercoscommunication, 1.2.3.0 (schneider electric)",
+		"version": "1.2.3.0",
+		"nodes": {
+			"FB_WriteParameter_ByTopAddr": {
+				"type_guid": "pou"
+			},
+			"DataBlockElement": {
+				"type_guid": "method_with_return"
+			},
+			"Executing": {
+				"type_guid": "method_with_return"
+			},
+			"Preparing": {
+				"type_guid": "method_with_return"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"ST_IdnStruct": {
+				"type_guid": "dut"
+			},
+			"FB_AsyncRead_ByTopAdr": {
+				"type_guid": "pou"
+			},
+			"Job": {
+				"type_guid": "method_with_return"
+			},
+			"xDone": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"FB_AsyncWrite": {
+				"type_guid": "pou"
+			},
+			"FB_ReadParameter_ByTopAddr": {
+				"type_guid": "pou"
+			},
+			"FC_SercosError": {
+				"type_guid": "pou"
+			},
+			"ST_Slave": {
+				"type_guid": "dut"
+			},
+			"FB_AsyncRead": {
+				"type_guid": "pou"
+			},
+			"FB_AsyncWrite_ByTopAddr": {
+				"type_guid": "pou"
+			},
+			"FB_CommonBaseIDN": {
+				"type_guid": "pou"
+			},
+			"Clean": {
+				"type_guid": "method_with_return"
+			},
+			"CheckDevice": {
+				"type_guid": "method_with_return"
+			},
+			"Error": {
+				"type_guid": "method_with_return"
+			},
+			"FB_CommonBaseIDN_ByTopAddr": {
+				"type_guid": "pou"
+			},
+			"GetHardwareRev": {
+				"type_guid": "pou"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_ParseIDN": {
+				"type_guid": "pou"
+			},
+			"FC_IdnStringToDword": {
+				"type_guid": "pou"
+			},
+			"FC_BuildIDN": {
+				"type_guid": "pou"
+			},
+			"FB_WriteParameter": {
+				"type_guid": "pou"
+			},
+			"FB_ReadParameter": {
+				"type_guid": "pou"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_DataBlockElement": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SercosCommunicationLMC": {
+		"library_full_name": "sercoscommunicationlmc, 1.0.0.0 (schneider electric)",
+		"version": "1.0.0.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FC_GetVendorDeviceId": {
+				"type_guid": "pou"
+			},
+			"FC_GetSercosPhase": {
+				"type_guid": "pou"
+			},
+			"FC_GetAxisState": {
+				"type_guid": "pou"
+			},
+			"FB_ControllerBaseIDN": {
+				"type_guid": "pou"
+			},
+			"GetLogicalAddress": {
+				"type_guid": "method_with_return"
+			},
+			"GetSercosHandle": {
+				"type_guid": "method_with_return"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SercosCommunicationM262": {
+		"library_full_name": "sercoscommunicationm262, 1.0.0.0 (schneider electric)",
+		"version": "1.0.0.0",
+		"nodes": {
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"FC_GetVendorDeviceId": {
+				"type_guid": "pou"
+			},
+			"FC_GetSlave": {
+				"type_guid": "pou"
+			},
+			"FC_GetSercosPhase": {
+				"type_guid": "pou"
+			},
+			"FC_GetAxisState": {
+				"type_guid": "pou"
+			},
+			"FB_ControllerBaseIDN": {
+				"type_guid": "pou"
+			},
+			"GetLogicalAddress": {
+				"type_guid": "method_with_return"
+			},
+			"GetSercosHandle": {
+				"type_guid": "method_with_return"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SercosIpClient": {
+		"library_full_name": "sercosipclient, 1.0.2.0 (schneider electric)",
+		"version": "1.0.2.0",
+		"nodes": {
+			"FC_BrowseRequest": {
+				"type_guid": "pou"
+			},
+			"FC_BrowseResponse": {
+				"type_guid": "pou"
+			},
+			"FC_ExceptionResponse": {
+				"type_guid": "pou"
+			},
+			"FC_GenericResponse": {
+				"type_guid": "pou"
+			},
+			"FC_IdentifyRequest": {
+				"type_guid": "pou"
+			},
+			"FC_IdentifyResponse": {
+				"type_guid": "pou"
+			},
+			"FC_NameplateBroadcastRequest": {
+				"type_guid": "pou"
+			},
+			"FC_NameplateRequest": {
+				"type_guid": "pou"
+			},
+			"FC_ReadDataStatusRequest": {
+				"type_guid": "pou"
+			},
+			"FC_ReadDataStatusResponse": {
+				"type_guid": "pou"
+			},
+			"FC_ReadOnlyDataRequest": {
+				"type_guid": "pou"
+			},
+			"FC_ReadOnlyDataResponse": {
+				"type_guid": "pou"
+			},
+			"FC_ResetRequest": {
+				"type_guid": "pou"
+			},
+			"FC_SetIpResponse": {
+				"type_guid": "pou"
+			},
+			"FC_WriteDataRequest": {
+				"type_guid": "pou"
+			},
+			"FC_WriteDataResponse": {
+				"type_guid": "pou"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ST_BrowseResponse": {
+				"type_guid": "dut"
+			},
+			"ST_Data": {
+				"type_guid": "dut"
+			},
+			"ST_NameplateResponse": {
+				"type_guid": "dut"
+			},
+			"ST_NodeIdentifiers": {
+				"type_guid": "dut"
+			},
+			"ST_ServerException": {
+				"type_guid": "dut"
+			},
+			"ST_SetIpRequest": {
+				"type_guid": "dut"
+			},
+			"FC_GenericRequest": {
+				"type_guid": "pou"
+			},
+			"FC_NameplateResponse": {
+				"type_guid": "pou"
+			},
+			"FC_SetIpRequest": {
+				"type_guid": "pou"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SnmpManager": {
+		"library_full_name": "snmpmanager, 1.2.1.0 (schneider electric)",
+		"version": "1.2.1.0",
+		"nodes": {
+			"ST_Response": {
+				"type_guid": "dut"
+			},
+			"ST_ResponseData": {
+				"type_guid": "dut"
+			},
+			"ST_RequestInformation": {
+				"type_guid": "dut"
+			},
+			"ST_RequestData": {
+				"type_guid": "dut"
+			},
+			"ST_Request": {
+				"type_guid": "dut"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL_internal": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_ValidateOid": {
+				"type_guid": "pou"
+			},
+			"FC_SwitchByteLittle": {
+				"type_guid": "pou"
+			},
+			"FC_SwitchByteBig": {
+				"type_guid": "pou"
+			},
+			"FC_StringToObjectId": {
+				"type_guid": "pou"
+			},
+			"FC_StringToIpAddr": {
+				"type_guid": "pou"
+			},
+			"FC_RandomValue": {
+				"type_guid": "pou"
+			},
+			"FC_ObjectIdToString": {
+				"type_guid": "pou"
+			},
+			"FC_IpAddrToString": {
+				"type_guid": "pou"
+			},
+			"FC_GetUdpError": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_DecodeLength": {
+				"type_guid": "pou"
+			},
+			"FC_DecodeIntegerVariant": {
+				"type_guid": "pou"
+			},
+			"FC_DecodeInteger": {
+				"type_guid": "pou"
+			},
+			"FC_CodeLength": {
+				"type_guid": "pou"
+			},
+			"FC_CodeIntegerVariant": {
+				"type_guid": "pou"
+			},
+			"FC_CodeInteger": {
+				"type_guid": "pou"
+			},
+			"FC_CheckTimeout": {
+				"type_guid": "pou"
+			},
+			"FB_SnmpManager": {
+				"type_guid": "pou"
+			},
+			"BuildTelegram": {
+				"type_guid": "method_with_return"
+			},
+			"CleanUp": {
+				"type_guid": "method_with_return"
+			},
+			"ExtractResponse": {
+				"type_guid": "method_with_return"
+			},
+			"GetInputs": {
+				"type_guid": "method_with_return"
+			},
+			"GetValue": {
+				"type_guid": "method_with_return"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"SetError": {
+				"type_guid": "method_with_return"
+			},
+			"SetOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"UpdateTime": {
+				"type_guid": "method_with_return"
+			},
+			"ValidateResponse": {
+				"type_guid": "method_with_return"
+			},
+			"ET_TelegramSteps": {
+				"type_guid": "dut"
+			},
+			"ET_States": {
+				"type_guid": "dut"
+			},
+			"ET_SnmpTag": {
+				"type_guid": "dut"
+			},
+			"ET_SnmpRequest": {
+				"type_guid": "dut"
+			},
+			"ET_SnmpProtocolVersion": {
+				"type_guid": "dut"
+			},
+			"ET_SnmpError": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_PduTag": {
+				"type_guid": "dut"
+			},
+			"ET_IntType": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SqlRemoteAccess": {
+		"library_full_name": "sqlremoteaccess, 2.0.5.0 (schneider electric)",
+		"version": "2.0.5.0",
+		"nodes": {
+			"FC_BufferCopy": {
+				"type_guid": "pou"
+			},
+			"FC_BufferSearch": {
+				"type_guid": "pou"
+			},
+			"FC_BufferToWstring": {
+				"type_guid": "pou"
+			},
+			"FC_ConcatDollarBackslash": {
+				"type_guid": "pou"
+			},
+			"FC_CopyFromBufferToUserData": {
+				"type_guid": "pou"
+			},
+			"FC_DintToFourCharStr": {
+				"type_guid": "pou"
+			},
+			"FC_FourCharWstringToDint": {
+				"type_guid": "pou"
+			},
+			"FC_GetRowAndCol": {
+				"type_guid": "pou"
+			},
+			"FC_ValidateDataBuffer": {
+				"type_guid": "pou"
+			},
+			"FC_ValidateResponseBuffer": {
+				"type_guid": "pou"
+			},
+			"FC_WstringToBuffer": {
+				"type_guid": "pou"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"FC_DiagToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"UserData": {
+				"type_guid": "dut"
+			},
+			"ST_TlsSettings": {
+				"type_guid": "dut"
+			},
+			"ST_ExtendedConnectionSettings": {
+				"type_guid": "dut"
+			},
+			"ST_ConnectionSettings": {
+				"type_guid": "dut"
+			},
+			"RequestWstring": {
+				"type_guid": "dut"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FB_SqlDbWrite": {
+				"type_guid": "pou"
+			},
+			"mCheckInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mInit": {
+				"type_guid": "method_with_return"
+			},
+			"mReceive": {
+				"type_guid": "method_with_return"
+			},
+			"mSend": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SqlDbRequest": {
+				"type_guid": "pou"
+			},
+			"mCheckConnectionInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckLimits": {
+				"type_guid": "method_with_return"
+			},
+			"mCheckParameterInputs": {
+				"type_guid": "method_with_return"
+			},
+			"mClearUserData": {
+				"type_guid": "method_with_return"
+			},
+			"mCloseTcp": {
+				"type_guid": "method_with_return"
+			},
+			"mConnectTcp": {
+				"type_guid": "method_with_return"
+			},
+			"mDiagnosis": {
+				"type_guid": "method_with_return"
+			},
+			"mDone": {
+				"type_guid": "method_with_return"
+			},
+			"mError": {
+				"type_guid": "method_with_return"
+			},
+			"mErrorQuit": {
+				"type_guid": "method_with_return"
+			},
+			"mReceiveRead": {
+				"type_guid": "method_with_return"
+			},
+			"mReceiveWrite": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SqlDbRead": {
+				"type_guid": "pou"
+			},
+			"mCheckOut": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SqlBase": {
+				"type_guid": "pou"
+			},
+			"mData": {
+				"type_guid": "method_with_return"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_SqlRequest": {
+				"type_guid": "dut"
+			},
+			"ET_OperationCode": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"SysSocket": {
+		"library_full_name": "syssocket, 3.5.15.0 (system)",
+		"version": "3.5.15.0",
+		"nodes": {
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Bibliotheksverwalter": {
+				"type_guid": "library_manager"
+			}
+		}
+	},
+	"SysSocket Implementation": {
+		"library_full_name": "syssocket implementation, 3.5.15.0 (system)",
+		"version": "3.5.15.0",
+		"nodes": {
+			"SysSockShutdown": {
+				"type_guid": "pou"
+			},
+			"SysSockSetSubnetMask": {
+				"type_guid": "pou"
+			},
+			"SysSockSetOption": {
+				"type_guid": "pou"
+			},
+			"SysSockSetIpAddressAndNetMask": {
+				"type_guid": "pou"
+			},
+			"SysSockSetIPAddress": {
+				"type_guid": "pou"
+			},
+			"SysSockSetDefaultGateway": {
+				"type_guid": "pou"
+			},
+			"SysSockSendToUdp": {
+				"type_guid": "pou"
+			},
+			"SysSockSendTo": {
+				"type_guid": "pou"
+			},
+			"SysSockSend": {
+				"type_guid": "pou"
+			},
+			"SysSockSelect": {
+				"type_guid": "pou"
+			},
+			"SysSockRecvFromUdp2": {
+				"type_guid": "pou"
+			},
+			"SysSockRecvFromUdp": {
+				"type_guid": "pou"
+			},
+			"SysSockRecvFrom": {
+				"type_guid": "pou"
+			},
+			"SysSockRecv": {
+				"type_guid": "pou"
+			},
+			"SysSockPing": {
+				"type_guid": "pou"
+			},
+			"SysSockNtohs": {
+				"type_guid": "pou"
+			},
+			"SysSockNtohl": {
+				"type_guid": "pou"
+			},
+			"SysSockListen": {
+				"type_guid": "pou"
+			},
+			"SysSockIoctl": {
+				"type_guid": "pou"
+			},
+			"SysSockInetNtoa": {
+				"type_guid": "pou"
+			},
+			"SysSockInetAddr": {
+				"type_guid": "pou"
+			},
+			"SysSockHtons": {
+				"type_guid": "pou"
+			},
+			"SysSockHtonl": {
+				"type_guid": "pou"
+			},
+			"SysSockGetSubnetMask": {
+				"type_guid": "pou"
+			},
+			"SysSockGetSockName": {
+				"type_guid": "pou"
+			},
+			"SysSockGetRecvSizeUdp": {
+				"type_guid": "pou"
+			},
+			"SysSockGetPeerName": {
+				"type_guid": "pou"
+			},
+			"SysSockGetOption": {
+				"type_guid": "pou"
+			},
+			"SysSockGetOSHandle": {
+				"type_guid": "pou"
+			},
+			"SysSockGetNextAdapterInfo": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostName": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostByName": {
+				"type_guid": "pou"
+			},
+			"SysSockGetFirstAdapterInfo": {
+				"type_guid": "pou"
+			},
+			"SysSockFdZero": {
+				"type_guid": "pou"
+			},
+			"SysSockFdIsset": {
+				"type_guid": "pou"
+			},
+			"SysSockFdInit": {
+				"type_guid": "pou"
+			},
+			"SysSockCreateUdp": {
+				"type_guid": "pou"
+			},
+			"SysSockCreate": {
+				"type_guid": "pou"
+			},
+			"SysSockConnect": {
+				"type_guid": "pou"
+			},
+			"SysSockCloseUdp": {
+				"type_guid": "pou"
+			},
+			"SysSockClose": {
+				"type_guid": "pou"
+			},
+			"SysSockBind": {
+				"type_guid": "pou"
+			},
+			"SysSockAccept": {
+				"type_guid": "pou"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			}
+		}
+	},
+	"SysSocket Interfaces": {
+		"library_full_name": "syssocket interfaces, 3.5.16.0 (system)",
+		"version": "3.5.16.0",
+		"nodes": {
+			"UDP_REPLY2": {
+				"type_guid": "dut"
+			},
+			"UDP_REPLY": {
+				"type_guid": "dut"
+			},
+			"UDINT_IN_WORDS": {
+				"type_guid": "dut"
+			},
+			"UDINT_IN_BYTES": {
+				"type_guid": "dut"
+			},
+			"SOCK_HOSTENT": {
+				"type_guid": "dut"
+			},
+			"SOCK_ADAPTER_INFORMATION2": {
+				"type_guid": "dut"
+			},
+			"SOCK_ADAPTER_INFORMATION": {
+				"type_guid": "dut"
+			},
+			"SOCKET_TIMEVAL": {
+				"type_guid": "dut"
+			},
+			"SOCKET_FD_SET": {
+				"type_guid": "dut"
+			},
+			"SOCKADDRESS": {
+				"type_guid": "dut"
+			},
+			"RTS_SOCKET_SO_VALUE_TCP_KEEPALIVE": {
+				"type_guid": "dut"
+			},
+			"RTS_SOCKET_SO_VALUE_LINGER": {
+				"type_guid": "dut"
+			},
+			"RTS_SOCKET_SO_VALUE_IP_MREQ": {
+				"type_guid": "dut"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"INADDR": {
+				"type_guid": "dut"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			}
+		}
+	},
+	"SysSocket2": {
+		"library_full_name": "syssocket2, 3.5.16.10 (system)",
+		"version": "3.5.16.10",
+		"nodes": {
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Bibliotheksverwalter": {
+				"type_guid": "library_manager"
+			}
+		}
+	},
+	"SysSocket2 Implementation": {
+		"library_full_name": "syssocket2 implementation, 3.5.16.0 (system)",
+		"version": "3.5.16.0",
+		"nodes": {
+			"SysSock2Shutdown": {
+				"type_guid": "pou"
+			},
+			"SysSock2SetOption": {
+				"type_guid": "pou"
+			},
+			"SysSock2SendTo": {
+				"type_guid": "pou"
+			},
+			"SysSock2Send": {
+				"type_guid": "pou"
+			},
+			"SysSock2Select": {
+				"type_guid": "pou"
+			},
+			"SysSock2RecvFrom": {
+				"type_guid": "pou"
+			},
+			"SysSock2Recv": {
+				"type_guid": "pou"
+			},
+			"SysSock2Ntohs": {
+				"type_guid": "pou"
+			},
+			"SysSock2Ntohl": {
+				"type_guid": "pou"
+			},
+			"SysSock2Listen": {
+				"type_guid": "pou"
+			},
+			"SysSock2Ioctl": {
+				"type_guid": "pou"
+			},
+			"SysSock2InetNtoa": {
+				"type_guid": "pou"
+			},
+			"SysSock2InetAddr": {
+				"type_guid": "pou"
+			},
+			"SysSock2Htons": {
+				"type_guid": "pou"
+			},
+			"SysSock2Htonl": {
+				"type_guid": "pou"
+			},
+			"SysSock2GetSockName": {
+				"type_guid": "pou"
+			},
+			"SysSock2GetPeerName": {
+				"type_guid": "pou"
+			},
+			"SysSock2GetOption": {
+				"type_guid": "pou"
+			},
+			"SysSock2FdZero": {
+				"type_guid": "pou"
+			},
+			"SysSock2FdIsset": {
+				"type_guid": "pou"
+			},
+			"SysSock2FdInit": {
+				"type_guid": "pou"
+			},
+			"SysSock2Create": {
+				"type_guid": "pou"
+			},
+			"SysSock2Connect": {
+				"type_guid": "pou"
+			},
+			"SysSock2Close": {
+				"type_guid": "pou"
+			},
+			"SysSock2Bind": {
+				"type_guid": "pou"
+			},
+			"SysSock2Accept": {
+				"type_guid": "pou"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			}
+		}
+	},
+	"SysSocket2 Interfaces": {
+		"library_full_name": "syssocket2 interfaces, 3.5.16.0 (system)",
+		"version": "3.5.16.0",
+		"nodes": {
+			"SysSocket2_Type": {
+				"type_guid": "dut"
+			},
+			"SysSocket2_TlsSockets": {
+				"type_guid": "dut"
+			},
+			"SysSocket2_StdSockets": {
+				"type_guid": "dut"
+			},
+			"SysSocket2_SpecificParameter": {
+				"type_guid": "dut"
+			},
+			"SysSocket2_Parameter": {
+				"type_guid": "dut"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			}
+		}
+	},
+	"SysSocket23": {
+		"library_full_name": "syssocket23, 3.5.13.0 (system)",
+		"version": "3.5.13.0",
+		"nodes": {
+			"SysSockSendTo": {
+				"type_guid": "pou"
+			},
+			"SysSockRecvFrom": {
+				"type_guid": "pou"
+			},
+			"SysSockSend": {
+				"type_guid": "pou"
+			},
+			"SysSockRecv": {
+				"type_guid": "pou"
+			},
+			"UDP_REPLY": {
+				"type_guid": "dut"
+			},
+			"SysSockShutdown30": {
+				"type_guid": "pou"
+			},
+			"SysSockSetOption30": {
+				"type_guid": "pou"
+			},
+			"SysSockSetIPAddress30": {
+				"type_guid": "pou"
+			},
+			"SysSockSendTo30": {
+				"type_guid": "pou"
+			},
+			"SysSockSend30": {
+				"type_guid": "pou"
+			},
+			"SysSockSelect30": {
+				"type_guid": "pou"
+			},
+			"SysSockRecvFrom30": {
+				"type_guid": "pou"
+			},
+			"SysSockRecv30": {
+				"type_guid": "pou"
+			},
+			"SysSockNtohl30": {
+				"type_guid": "pou"
+			},
+			"SysSockListen30": {
+				"type_guid": "pou"
+			},
+			"SysSockIoctl30": {
+				"type_guid": "pou"
+			},
+			"SysSockInetNtoa30": {
+				"type_guid": "pou"
+			},
+			"SysSockInetAddr30": {
+				"type_guid": "pou"
+			},
+			"SysSockHtonl30": {
+				"type_guid": "pou"
+			},
+			"SysSockGetOption30": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostName30": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostByName30": {
+				"type_guid": "pou"
+			},
+			"SysSockCreate30": {
+				"type_guid": "pou"
+			},
+			"SysSockConnect30": {
+				"type_guid": "pou"
+			},
+			"SysSockClose30": {
+				"type_guid": "pou"
+			},
+			"SysSockBind30": {
+				"type_guid": "pou"
+			},
+			"SysSockAccept30": {
+				"type_guid": "pou"
+			},
+			"SOCK_HOSTENT": {
+				"type_guid": "dut"
+			},
+			"DWORD_IN_WORDS": {
+				"type_guid": "dut"
+			},
+			"DWORD_IN_BYTES": {
+				"type_guid": "dut"
+			},
+			"UDP specific": {
+				"type_guid": "folder"
+			},
+			"TCP specific": {
+				"type_guid": "folder"
+			},
+			"SysSockShutdown": {
+				"type_guid": "pou"
+			},
+			"SysSockSetOption": {
+				"type_guid": "pou"
+			},
+			"SysSockSetIPAddress": {
+				"type_guid": "pou"
+			},
+			"SysSockSelect": {
+				"type_guid": "pou"
+			},
+			"SysSockNtohs": {
+				"type_guid": "pou"
+			},
+			"SysSockNtohl": {
+				"type_guid": "pou"
+			},
+			"SysSockListen": {
+				"type_guid": "pou"
+			},
+			"SysSockIoctl": {
+				"type_guid": "pou"
+			},
+			"SysSockInetNtoa": {
+				"type_guid": "pou"
+			},
+			"SysSockInetAddr": {
+				"type_guid": "pou"
+			},
+			"SysSockHtons": {
+				"type_guid": "pou"
+			},
+			"SysSockHtonl": {
+				"type_guid": "pou"
+			},
+			"SysSockGetOption": {
+				"type_guid": "pou"
+			},
+			"SysSockGetLastErrorSync": {
+				"type_guid": "pou"
+			},
+			"SysSockGetLastError": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostName": {
+				"type_guid": "pou"
+			},
+			"SysSockGetHostByName": {
+				"type_guid": "pou"
+			},
+			"SysSockCreate": {
+				"type_guid": "pou"
+			},
+			"SysSockConnect": {
+				"type_guid": "pou"
+			},
+			"SysSockClose": {
+				"type_guid": "pou"
+			},
+			"SysSockBind": {
+				"type_guid": "pou"
+			},
+			"SysSockAccept": {
+				"type_guid": "pou"
+			},
+			"Globale_Variablen": {
+				"type_guid": "gvl"
+			},
+			"SOCKET_TIMEVAL": {
+				"type_guid": "dut"
+			},
+			"SOCKET_LINGER": {
+				"type_guid": "dut"
+			},
+			"SOCKET_FD_SET": {
+				"type_guid": "dut"
+			},
+			"SOCKADDRESS": {
+				"type_guid": "dut"
+			},
+			"INADDR": {
+				"type_guid": "dut"
+			},
+			"extern30": {
+				"type_guid": "folder"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"POUs": {
+				"type_guid": "folder"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Global Variables": {
+				"type_guid": "folder"
+			},
+			"Data types": {
+				"type_guid": "folder"
+			}
+		}
+	},
+	"SysSocketAsync": {
+		"library_full_name": "syssocketasync, 3.5.5.0 (system)",
+		"version": "3.5.5.0",
+		"nodes": {
+			"tSysSockGetSubnetMask": {
+				"type_guid": "dut"
+			},
+			"tSysSockSelect": {
+				"type_guid": "dut"
+			},
+			"tSysSockHtonl": {
+				"type_guid": "dut"
+			},
+			"tSysSockGetRecvSizeUdp": {
+				"type_guid": "dut"
+			},
+			"tSysSockShutdown": {
+				"type_guid": "dut"
+			},
+			"tSysSockSend": {
+				"type_guid": "dut"
+			},
+			"tSysSockRecvFrom": {
+				"type_guid": "dut"
+			},
+			"tSysSockCreateUdp": {
+				"type_guid": "dut"
+			},
+			"Wrapper": {
+				"type_guid": "folder"
+			},
+			"tSysSockInetAddr": {
+				"type_guid": "dut"
+			},
+			"tSysSockRecvFromUdp": {
+				"type_guid": "dut"
+			},
+			"tSysSockNtohl": {
+				"type_guid": "dut"
+			},
+			"tSysSockSendToUdp": {
+				"type_guid": "dut"
+			},
+			"tSysSockGetHostname": {
+				"type_guid": "dut"
+			},
+			"tSysSockGetOption": {
+				"type_guid": "dut"
+			},
+			"tSysSockAccept": {
+				"type_guid": "dut"
+			},
+			"tSysSockSetOption": {
+				"type_guid": "dut"
+			},
+			"tSysSockNtohs": {
+				"type_guid": "dut"
+			},
+			"tSysSockRecv": {
+				"type_guid": "dut"
+			},
+			"tSysSockCreate": {
+				"type_guid": "dut"
+			},
+			"tSysSockSetSubnetMask": {
+				"type_guid": "dut"
+			},
+			"tSysSockIoctl": {
+				"type_guid": "dut"
+			},
+			"tSysSockConnect": {
+				"type_guid": "dut"
+			},
+			"tSysSockSendTo": {
+				"type_guid": "dut"
+			},
+			"tSysSockGetOsHandle": {
+				"type_guid": "dut"
+			},
+			"tSysSockSetIpAddress": {
+				"type_guid": "dut"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			},
+			"tSysSockClose": {
+				"type_guid": "dut"
+			},
+			"tSysSockCloseUdp": {
+				"type_guid": "dut"
+			},
+			"tSysSockListen": {
+				"type_guid": "dut"
+			},
+			"tSysSockInetNtoa": {
+				"type_guid": "dut"
+			},
+			"DUT": {
+				"type_guid": "folder"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Documentation": {
+				"type_guid": "gvl"
+			},
+			"tSysSockPing": {
+				"type_guid": "dut"
+			},
+			"tSysSockBind": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"tSysSockGetHostByName": {
+				"type_guid": "dut"
+			},
+			"tSysSockHtons": {
+				"type_guid": "dut"
+			},
+			"SysSockAsyncFB": {
+				"type_guid": "pou"
+			},
+			"SysSockSetOptionAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockNtohlAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCreateUdpAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvFromAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetRecvSizeUdpAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCreateAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetHostByNameAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvFromUdpAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockAcceptAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendToUdpAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockShutdownAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockPingAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockListenAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendToUdpAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockShutdownAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetOsHandleAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSelectAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSetOptionAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockNtohsAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetOptionAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockListenAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockPingAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockHtonsAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvFromUdpAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetOptionAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockAcceptAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSetIpAddressAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockBindAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCloseAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetSubnetMaskAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCloseAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendToAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendToAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSetSubnetMaskAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCreateAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockInetAddrAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetOsHandleAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvFromAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetHostnameAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSelectAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetHostByNameAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSendAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockInetAddrAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockConnectAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockHtonlAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockInetNtoaAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockInetNtoaAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSetIpAddressAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCloseUdpAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetHostnameAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockNtohsAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockConnectAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockHtonsAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockBindAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCreateUdpAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockIoctlAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockNtohlAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockSetSubnetMaskAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockCloseUdpAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetRecvSizeUdpAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockHtonlAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockRecvAsync": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockIoctlAsyncWrapper": {
+				"type_guid": "method_with_return"
+			},
+			"SysSockGetSubnetMaskAsyncWrapper": {
+				"type_guid": "method_with_return"
+			}
+		}
+	},
+	"TcpUdpCommunication": {
+		"library_full_name": "tcpudpcommunication, 2.2.11.0 (schneider electric)",
+		"version": "2.2.11.0",
+		"nodes": {
+			"FB_TCPServer": {
+				"type_guid": "pou"
+			},
+			"BytesAvailableToReadFirstAvailableClient": {
+				"type_guid": "property"
+			},
+			"Get": {
+				"type_guid": "property_method"
+			},
+			"SockOpt_ReceiveBufferSize": {
+				"type_guid": "property"
+			},
+			"Set": {
+				"type_guid": "property_method"
+			},
+			"CertificateVerification": {
+				"type_guid": "property"
+			},
+			"CertificateName": {
+				"type_guid": "property"
+			},
+			"Accept": {
+				"type_guid": "method_with_return"
+			},
+			"BytesAvailableToReadTotal": {
+				"type_guid": "property"
+			},
+			"CheckClients": {
+				"type_guid": "method_with_return"
+			},
+			"SendToAll": {
+				"type_guid": "method_with_return"
+			},
+			"SendToSpecificClient_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"SetDefaultSocketOptions": {
+				"type_guid": "method_with_return"
+			},
+			"SockOpt_KeepAlive": {
+				"type_guid": "property"
+			},
+			"SockOpt_LingerEnabled": {
+				"type_guid": "property"
+			},
+			"SockOpt_LingerTimeout": {
+				"type_guid": "property"
+			},
+			"SockOpt_NonBlocking": {
+				"type_guid": "property"
+			},
+			"SockOpt_ReuseAddress": {
+				"type_guid": "property"
+			},
+			"SockOpt_SendBufferSize": {
+				"type_guid": "property"
+			},
+			"SockOpt_TimeoutAcceptTls": {
+				"type_guid": "property"
+			},
+			"State": {
+				"type_guid": "property"
+			},
+			"DisconnectAll": {
+				"type_guid": "method_with_return"
+			},
+			"GetBoundIPAddress": {
+				"type_guid": "method_with_return"
+			},
+			"IsDataAvailable": {
+				"type_guid": "property"
+			},
+			"PeekFromSpecificClient": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveOutOfBandFromSpecificClient": {
+				"type_guid": "method_with_return"
+			},
+			"ResetResult": {
+				"type_guid": "method_with_return"
+			},
+			"Result": {
+				"type_guid": "property"
+			},
+			"Secure": {
+				"type_guid": "property"
+			},
+			"CheckAcceptResultAsyncPart": {
+				"type_guid": "method_with_return"
+			},
+			"SendOutOfBandToSpecificClient": {
+				"type_guid": "method_with_return"
+			},
+			"SendToSpecificClient": {
+				"type_guid": "method_with_return"
+			},
+			"SetResult": {
+				"type_guid": "property"
+			},
+			"Socket": {
+				"type_guid": "property"
+			},
+			"SockOpt_EnableKeepAliveExtended": {
+				"type_guid": "method_with_return"
+			},
+			"TlsAlgorithm": {
+				"type_guid": "property"
+			},
+			"TlsProtocol": {
+				"type_guid": "property"
+			},
+			"TotalBytesReceived": {
+				"type_guid": "property"
+			},
+			"SendToAll_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"TotalBytesSent": {
+				"type_guid": "property"
+			},
+			"VerifyCertUserCallback": {
+				"type_guid": "property"
+			},
+			"SendOutOfBandToAll": {
+				"type_guid": "method_with_return"
+			},
+			"Open": {
+				"type_guid": "method_with_return"
+			},
+			"ConnectedClients": {
+				"type_guid": "property"
+			},
+			"DefaultTlsSettingsUsed": {
+				"type_guid": "property"
+			},
+			"DisconnectClient": {
+				"type_guid": "method_with_return"
+			},
+			"GetBoundPort": {
+				"type_guid": "method_with_return"
+			},
+			"IsNewConnectionAvailable": {
+				"type_guid": "property"
+			},
+			"Close": {
+				"type_guid": "method_with_return"
+			},
+			"NumberOfConnectedClients": {
+				"type_guid": "property"
+			},
+			"PeekFromFirstAvailableClient": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveFromFirstAvailableClient": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveFromFirstAvailableClient_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveFromSpecificClient": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveFromSpecificClient_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveOutOfBandFromFirstAvailableClient": {
+				"type_guid": "method_with_return"
+			},
+			"ResetByteCounters": {
+				"type_guid": "method_with_return"
+			},
+			"ResetTlsInternal": {
+				"type_guid": "method_with_return"
+			},
+			"CheckAcceptResult": {
+				"type_guid": "method_with_return"
+			},
+			"FB_Ping": {
+				"type_guid": "pou"
+			},
+			"ResetOutputs": {
+				"type_guid": "method_with_return"
+			},
+			"FB_TCPClient": {
+				"type_guid": "pou"
+			},
+			"SockOpt_TimeoutConnectTls": {
+				"type_guid": "property"
+			},
+			"StartTls": {
+				"type_guid": "property"
+			},
+			"SockOpt_ServerNameIndication": {
+				"type_guid": "property"
+			},
+			"SockOpt_NoDelay": {
+				"type_guid": "property"
+			},
+			"SetConnection": {
+				"type_guid": "method_with_return"
+			},
+			"ServerPort": {
+				"type_guid": "property"
+			},
+			"ServerNameIndication": {
+				"type_guid": "property"
+			},
+			"Connect": {
+				"type_guid": "method_with_return"
+			},
+			"CheckConnectResult": {
+				"type_guid": "method_with_return"
+			},
+			"BytesAvailableToRead": {
+				"type_guid": "property"
+			},
+			"AsyncInitBusy": {
+				"type_guid": "property"
+			},
+			"SockOpt_OutOfBandInline": {
+				"type_guid": "property"
+			},
+			"SockOpt_CustomPort": {
+				"type_guid": "property"
+			},
+			"Shutdown": {
+				"type_guid": "method_with_return"
+			},
+			"IsReadable": {
+				"type_guid": "property"
+			},
+			"IsWritable": {
+				"type_guid": "property"
+			},
+			"PeerHasDisconnected": {
+				"type_guid": "property"
+			},
+			"Receive": {
+				"type_guid": "method_with_return"
+			},
+			"SendOutOfBand": {
+				"type_guid": "method_with_return"
+			},
+			"ServerIP": {
+				"type_guid": "property"
+			},
+			"Upgrade": {
+				"type_guid": "method_with_return"
+			},
+			"InitTlsStateAsync": {
+				"type_guid": "property"
+			},
+			"Peek": {
+				"type_guid": "method_with_return"
+			},
+			"ReceiveOutOfBand": {
+				"type_guid": "method_with_return"
+			},
+			"Receive_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"SendCertificate": {
+				"type_guid": "property"
+			},
+			"Send": {
+				"type_guid": "method_with_return"
+			},
+			"Send_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"CheckConnectResultAsyncPart": {
+				"type_guid": "method_with_return"
+			},
+			"FB_TCPClient2": {
+				"type_guid": "pou"
+			},
+			"ConnectTls": {
+				"type_guid": "method_with_return"
+			},
+			"UpgradeToTls": {
+				"type_guid": "method_with_return"
+			},
+			"TlsUsed": {
+				"type_guid": "property"
+			},
+			"ConnectStartTls": {
+				"type_guid": "method_with_return"
+			},
+			"ConnectTls_Internal": {
+				"type_guid": "method_with_return"
+			},
+			"FC_InitTlsContext": {
+				"type_guid": "pou"
+			},
+			"FC_SysSock2Connect": {
+				"type_guid": "pou"
+			},
+			"FC_WriteUINT": {
+				"type_guid": "pou"
+			},
+			"FC_WriteUSINT": {
+				"type_guid": "pou"
+			},
+			"FB_DnsClient": {
+				"type_guid": "pou"
+			},
+			"InputParameterCheck": {
+				"type_guid": "method_with_return"
+			},
+			"DomainNameValid": {
+				"type_guid": "method_with_return"
+			},
+			"FB_PingAsync": {
+				"type_guid": "pou"
+			},
+			"xDone": {
+				"type_guid": "property"
+			},
+			"Job": {
+				"type_guid": "method_with_return"
+			},
+			"FB_RandomGenerator": {
+				"type_guid": "pou"
+			},
+			"GetDint": {
+				"type_guid": "method_with_return"
+			},
+			"GetLreal": {
+				"type_guid": "method_with_return"
+			},
+			"CalcRandom": {
+				"type_guid": "method_with_return"
+			},
+			"FC_GetSubNetBroadcastAddr": {
+				"type_guid": "pou"
+			},
+			"FC_InetAddrDWORDtoString": {
+				"type_guid": "pou"
+			},
+			"FC_InetAddrStringtoDWORD": {
+				"type_guid": "pou"
+			},
+			"FC_IsMulticastIP": {
+				"type_guid": "pou"
+			},
+			"FC_IsValidDomainName": {
+				"type_guid": "pou"
+			},
+			"FC_IsValidIP": {
+				"type_guid": "pou"
+			},
+			"FC_IsValidSubnetMask": {
+				"type_guid": "pou"
+			},
+			"FC_Ping": {
+				"type_guid": "pou"
+			},
+			"FC_ReadSTRING": {
+				"type_guid": "pou"
+			},
+			"FC_WriteSTRING": {
+				"type_guid": "pou"
+			},
+			"FC_SysSock2CreateUDP": {
+				"type_guid": "pou"
+			},
+			"FB_SysSock2AcceptAsync": {
+				"type_guid": "pou"
+			},
+			"FB_SysSock2ConnectAsync": {
+				"type_guid": "pou"
+			},
+			"FB_TCPServer2": {
+				"type_guid": "pou"
+			},
+			"ConnectedClients2": {
+				"type_guid": "property"
+			},
+			"OpenTls": {
+				"type_guid": "method_with_return"
+			},
+			"FC_SysSock2CreateTCP": {
+				"type_guid": "pou"
+			},
+			"FC_ReadDINT": {
+				"type_guid": "pou"
+			},
+			"FC_ReadINT": {
+				"type_guid": "pou"
+			},
+			"FC_ReadSINT": {
+				"type_guid": "pou"
+			},
+			"FC_ReadUDINT": {
+				"type_guid": "pou"
+			},
+			"FC_ReadUINT": {
+				"type_guid": "pou"
+			},
+			"FC_ReadUSINT": {
+				"type_guid": "pou"
+			},
+			"FC_WriteDINT": {
+				"type_guid": "pou"
+			},
+			"FC_WriteINT": {
+				"type_guid": "pou"
+			},
+			"FC_WriteSINT": {
+				"type_guid": "pou"
+			},
+			"FC_WriteUDINT": {
+				"type_guid": "pou"
+			},
+			"FB_UDPPeer": {
+				"type_guid": "pou"
+			},
+			"Bind": {
+				"type_guid": "method_with_return"
+			},
+			"SockOpt_MulticastDefaultInterface": {
+				"type_guid": "property"
+			},
+			"SockOpt_MulticastLoopback": {
+				"type_guid": "property"
+			},
+			"SockOpt_MulticastTTL": {
+				"type_guid": "property"
+			},
+			"ReceiveFrom": {
+				"type_guid": "method_with_return"
+			},
+			"LeaveMulticastGroup": {
+				"type_guid": "method_with_return"
+			},
+			"SockOpt_Broadcast": {
+				"type_guid": "property"
+			},
+			"SendTo": {
+				"type_guid": "method_with_return"
+			},
+			"JoinMulticastGroup": {
+				"type_guid": "method_with_return"
+			},
+			"FB_InitTlsContextAsync": {
+				"type_guid": "pou"
+			},
+			"FC_EtCertVerifyModeToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtStateToString": {
+				"type_guid": "pou"
+			},
+			"FC_EtTlsProtocolToString": {
+				"type_guid": "pou"
+			},
+			"ST_TlsSettingsServer": {
+				"type_guid": "dut"
+			},
+			"ST_TlsSettingsClient": {
+				"type_guid": "dut"
+			},
+			"ST_TlsProperties": {
+				"type_guid": "dut"
+			},
+			"ST_SockOpt_Linger": {
+				"type_guid": "dut"
+			},
+			"ST_SockOpt_IP_MREQ": {
+				"type_guid": "dut"
+			},
+			"ST_DnsAddressInfo": {
+				"type_guid": "dut"
+			},
+			"ST_DefaultSocketOptionsUDPPeer": {
+				"type_guid": "dut"
+			},
+			"ST_DefaultSocketOptionsTCPServer": {
+				"type_guid": "dut"
+			},
+			"ST_DefaultSocketOptionsTCPClient": {
+				"type_guid": "dut"
+			},
+			"ST_ClientConnection2": {
+				"type_guid": "dut"
+			},
+			"ST_ClientConnection": {
+				"type_guid": "dut"
+			},
+			"IF_VerifyCertCallback": {
+				"type_guid": "interface"
+			},
+			"VerifyCertCallback": {
+				"type_guid": "method_with_return"
+			},
+			"GetHardwareRev": {
+				"type_guid": "pou"
+			},
+			"GVL": {
+				"type_guid": "gvl"
+			},
+			"GPL": {
+				"type_guid": "gvl"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_ResetTlsContext": {
+				"type_guid": "pou"
+			},
+			"FB_VerifyCertCallback": {
+				"type_guid": "pou"
+			},
+			"VerifyResult": {
+				"type_guid": "property"
+			},
+			"FB_SocketManagement": {
+				"type_guid": "pou"
+			},
+			"CloseAndUnregister": {
+				"type_guid": "method_with_return"
+			},
+			"EventCallback": {
+				"type_guid": "method_with_return"
+			},
+			"Init": {
+				"type_guid": "method_with_return"
+			},
+			"RegisterSocket": {
+				"type_guid": "method_with_return"
+			},
+			"FB_SocketBase": {
+				"type_guid": "pou"
+			},
+			"ET_TlsProtocol": {
+				"type_guid": "dut"
+			},
+			"ET_TlsAlgorithm": {
+				"type_guid": "dut"
+			},
+			"ET_StateHidden": {
+				"type_guid": "dut"
+			},
+			"ET_State": {
+				"type_guid": "dut"
+			},
+			"ET_SockOpt_Multicast": {
+				"type_guid": "dut"
+			},
+			"ET_SockOpt_Error": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_CertVerifyMode": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	},
+	"TimeSync": {
+		"library_full_name": "timesync, 1.1.3.0 (schneider electric)",
+		"version": "1.1.3.0",
+		"nodes": {
+			"ST_UdpData": {
+				"type_guid": "dut"
+			},
+			"ST_TimeStamp": {
+				"type_guid": "dut"
+			},
+			"ST_TimeResponse": {
+				"type_guid": "dut"
+			},
+			"ST_TimeRequest": {
+				"type_guid": "dut"
+			},
+			"ST_SntpBuffer": {
+				"type_guid": "dut"
+			},
+			"ST_InData": {
+				"type_guid": "dut"
+			},
+			"GCL": {
+				"type_guid": "gvl"
+			},
+			"FC_UlintTimeStamp": {
+				"type_guid": "pou"
+			},
+			"FC_SwitchByteBig": {
+				"type_guid": "pou"
+			},
+			"FC_SetTimeHigh": {
+				"type_guid": "pou"
+			},
+			"FC_RandomValue": {
+				"type_guid": "pou"
+			},
+			"FC_GetTimeHigh": {
+				"type_guid": "pou"
+			},
+			"FC_GetMsFromServer": {
+				"type_guid": "pou"
+			},
+			"FC_EtResultToString": {
+				"type_guid": "pou"
+			},
+			"FC_ClearBuffer": {
+				"type_guid": "pou"
+			},
+			"FB_SntpClient": {
+				"type_guid": "pou"
+			},
+			"CloseSocket": {
+				"type_guid": "method_with_return"
+			},
+			"GetInputs": {
+				"type_guid": "method_with_return"
+			},
+			"PrepareRecvData": {
+				"type_guid": "method_with_return"
+			},
+			"PrepareSendData": {
+				"type_guid": "method_with_return"
+			},
+			"SetDefaults": {
+				"type_guid": "method_with_return"
+			},
+			"SetError": {
+				"type_guid": "method_with_return"
+			},
+			"SetTime": {
+				"type_guid": "method_with_return"
+			},
+			"SetTimestamp": {
+				"type_guid": "method_with_return"
+			},
+			"ET_States": {
+				"type_guid": "dut"
+			},
+			"ET_Result": {
+				"type_guid": "dut"
+			},
+			"ET_ComMode": {
+				"type_guid": "dut"
+			},
+			"Library Manager": {
+				"type_guid": "library_manager"
+			},
+			"Project Information": {
+				"type_guid": "project_information"
+			},
+			"Project Settings": {
+				"type_guid": "project_settings"
+			}
+		}
+	}
+}
