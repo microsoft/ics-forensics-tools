@@ -1,2 +1,2 @@
 pytest==7.2.0
-pyinstaller==5.7.0
+pyinstaller==5.13.1
