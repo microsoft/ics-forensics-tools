@@ -53,7 +53,7 @@ git clone https://github.com/microsoft/ics-forensics-tools.git
 	 python driver.py -s -v -c config.json --multiprocess
 
 
-### Import as library example
+### Import as a library example
 ```python
 from forensic.client.forensic_client import ForensicClient
 from forensic.interfaces.plugin import PluginConfig
@@ -70,13 +70,13 @@ plugin = PluginConfig.from_json({
 forensic.scan([plugin])
 ```
 ## Architecture
-![architecture.png](assets/images/architecture.png)
+<img src="assets/images/architecture.png" width="800"/>
 
 ## Adding Plugins
 When developing locally make sure to mark src folder as "Sources root"
 
 - Create new directory under plugins folder with your plugin name
-- Create new Python file with your plugin name
+- Create a new Python file with your plugin name
 - Use the following template to write your plugin and replace 'General' with your plugin name
 
 ```python
@@ -112,12 +112,11 @@ class General(PluginInterface):
 ```
 - Make sure to import your new plugin in the `__init__.py` file under the plugins folder
 - In the PluginInterface inherited class there is 'config' parameters, you can use this to access any data that's available in the PluginConfig object (plugin name, addresses, port, transport, parameters).  
-there are 2 mandatory functions (connect, export).  
-the connect function receives single ip address and extracts any relevant information from the device and return it.  
-the export function receives the information that was extracted from __all__ the devices and there you can export it to file.
+There are 2 mandatory functions (connect, export).  
+  - The connect function receives single ip address and extracts any relevant information from the device and return it.  
+  - The export function receives the information that was extracted from __all__ the devices and there you can export it to file.
 - In the PluginCLI inherited class you need to specify in the init function the default information related to this plugin.  
-there is a single mandatory function (flags).  
-In which you must call base_flags, and you can add any additional flags that you want to have.
+There is a single mandatory function (flags), in which you must call base_flags, and you can add any additional flags that you want to have.
 
 ## Adding Analyzers
 - Create new directory under analyzers folder with the plugin name that related to your analyzer.
@@ -141,7 +140,7 @@ class General(AnalyzerInterface):
 
 - Make sure to import your new analyzer in the `__init__.py` file under the analyzers folder
 
-## Resources and Technical data & solution:
+## Resources and technical data & solution:
 [Microsoft Defender for IoT](https://azure.microsoft.com/en-us/services/iot-defender/#overview) is an agentless network-layer security solution that allows
 organizations to continuously monitor and discover assets, detect threats, and manage vulnerabilities in their IoT/OT
 and Industrial Control Systems (ICS) devices, on-premises and in Azure-connected environments.
@@ -152,7 +151,7 @@ and Industrial Control Systems (ICS) devices, on-premises and in Azure-connected
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
