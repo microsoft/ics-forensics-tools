@@ -53,5 +53,10 @@ class AnalyzerConfig(object):
             name=json["name"],
             parameters=json["parameters"]
         )
+    def validate_config(self):
+        if not isinstance(self.name, str) or not self.name.strip:
+            raise ValueError("Analyzer name must not be a empty string.")
+        if not isinstance(self.parameters, dict):
+            raise ValueError("The Parameter must be a dictonary.")
 
 
